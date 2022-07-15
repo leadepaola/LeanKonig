@@ -24,11 +24,11 @@
     #    # #    # #    # 
      ####   ####   ####  
     -->
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link rel="stylesheet" type="text/css" href="./css/formulario.css">
-	<link rel="stylesheet" type="text/css" href="./css/cartel_contacto.css">
+	<link rel="stylesheet" type="text/css" href="./proyects/desarrollokonig/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./proyects/desarrollokonig/css/formulario.css">
+	<link rel="stylesheet" type="text/css" href="./proyects/desarrollokonig/css/cartel_contacto.css">
 
-	<link rel="stylesheet" type="text/css" href="./css/1024.css">
+	<link rel="stylesheet" type="text/css" href="./proyects/desarrollokonig/css/1024.css">
 	
 
 
