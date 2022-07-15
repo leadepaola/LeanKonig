@@ -1,6 +1,6 @@
 <?php
 
-	include('canal.php');
+	//include('canal.php');
 
 ?>
 
