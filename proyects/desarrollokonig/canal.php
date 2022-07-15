@@ -46,15 +46,15 @@ if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),'opera mini') > 0) {
 if ($tablet_browser > 0) {
 // Si es TABLET has lo que necesites
    
-   header('Location: zm/mobile.html');
+   header('Location: /proyects/desarrollokonig/zm/mobile.html');
 }
 else if ($mobile_browser > 0) {
 // Si es MOBILE has lo que necesites
    
-   header('Location: zm/mobile.html');
+   header('Location: /proyects/desarrollokonig/zm/mobile.html');
 }
 else {
 // Si es PC has lo que necesites
-    header('Location: /index.php');
+    header('Location: /proyects/desarrollokonig/index.php');
 }  
 ?>
