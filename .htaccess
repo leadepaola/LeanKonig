@@ -8,4 +8,7 @@ Options All -Indexes
 
 # Login
 RewriteEngine on
-RewriteRule ^proyects/desarrollokonig$ /zm/index.php [L]
+RewriteRule ^proyects/desarrollokonig$ /proyects/desarrollokonig/index.php [L]
+
+RewriteEngine on
+RewriteRule ^proyects/desarrollokonig/$ /proyects/desarrollokonig/index.php [L]
