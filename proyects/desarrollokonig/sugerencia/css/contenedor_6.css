@@ -1,0 +1,66 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#titulo_6{
+	position: relative;
+	z-index: 50;
+
+	width: 100%;
+	
+	/*margin-top: 201px;*/
+	/*margin-left: 10%;*/
+	/*margin-bottom: 3%;*/
+
+	/*padding-top: 150px;*/
+	
+	font-family: 'Quicksand', sans-serif;
+	font-size: 45px;
+	font-weight: 600;
+	color: transparent;
+
+	text-align: center;
+	cursor: default;
+
+	/*background-color: darkred;*/
+}
+
+
+
+
+#texto_6{
+
+}
+
+
+
+#mobile_smart_6{
+	/*position: absolute;*/
+
+	width: 70px;
+
+	/*left: 74%;*/
+	/*top: 121px;*/
+
+	/*display: none;*/
+}
+
+#content_img_como_6{
+	left: 76.5%;
+}

@@ -1,0 +1,80 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content_4{
+
+}
+	
+
+
+
+
+#mobile_smart_4{
+	position: absolute;
+
+	width: 316px;
+
+	left: 62%;
+	top: -32px;
+}
+
+
+
+
+
+#titulo_4{
+	position: relative;
+	z-index: 50;
+
+	width: 40%;
+	
+	/*margin-top: 201px;*/
+	margin-left: 10%;
+	/*margin-bottom: 3%;*/
+
+	/*padding-top: 150px;*/
+	
+	font-family: 'Quicksand', sans-serif;
+	font-size: 32px;
+	font-weight: 600;
+	color: transparent;
+
+	text-align: start;
+	cursor: default;
+	/*background-color: darkred;*/
+}
+
+
+
+
+#texto_4{
+	/*position: absolute;*/
+
+	width: 40%;
+
+	margin-top: 15px;
+	margin-left: 10%;
+	margin-bottom: 230px;
+
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+	/*font-weight: 600;*/
+	color: black;
+
+
+	text-align: start;
+	cursor: default;
+	/*background-color: white;*/
+}

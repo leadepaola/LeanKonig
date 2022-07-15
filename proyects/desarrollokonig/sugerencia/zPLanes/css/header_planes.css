@@ -1,0 +1,222 @@
+
+
+/*
+#    # ######   ##   #####  ###### #####  
+#    # #       #  #  #    # #      #    # 
+###### #####  #    # #    # #####  #    # 
+#    # #      ###### #    # #      #####  
+#    # #      #    # #    # #      #   #  
+#    # ###### #    # #####  ###### #    # 
+*/
+
+
+
+
+
+
+
+
+#header{
+	position: fixed;
+	z-index: 95;
+	
+	width: 99%;
+	height: 5%;
+	left: 0%;
+	top: 95%;
+	
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	color: white;
+	
+	border-radius: 20px;
+
+	display: flex;
+	justify-content: flex-end;
+	/*align-items: center;*/
+
+	/*-webkit-box-shadow: 	0px -2px 21px -5px #000000;*/
+	/*box-shadow: 			0px -2px 21px -5px #000000;*/
+	
+	/*border-top: 1px solid rgb(214, 214, 214);*/
+
+	opacity: 1;
+	/*background-color: white;*/
+	/*transition: .5s;*/
+
+
+}
+
+
+#logo_header{
+	/*position: absolute;*/
+	/*width: 99%;*/
+	height: 100%;
+	
+	color: black;
+	font-size: 18px;
+	font-weight: 600;
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	
+	padding: 11px;
+	box-sizing: border-box;
+
+	text-decoration: none;
+	
+	border-radius: 5px 0 0 0;
+
+	/*border-top: 1px solid #e2e2e2;*/
+	/*border-left: 1px solid #e2e2e2;*/
+
+	cursor: default;
+	background-color: white;
+	/*transition: .5s;*/
+
+}
+
+
+
+
+#color_celeste{
+	position: relative;
+
+	top: 2px;
+
+	font-size: 12px;
+	color: #3c92ca;
+	/*transition: .5s;*/
+}
+
+.espacio{
+	font-size: 4px;
+	color: transparent;
+	/*transition: .5s;*/
+}
+
+.sugerencia{
+	font-weight: 600;
+}
+
+.comAR{
+	color: #3c92ca;
+}
+
+#comAR_texto_4{
+	font-weight: 600;
+	font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contenedor_en_header{
+	position: absolute;
+
+	width: 35%;
+	height: 90%;
+	left: 64%;
+	/*top: 10%;*/
+	
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color: white;
+
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	
+	/*background-color: darkred;*/
+}
+
+
+
+#empresa_header{
+	/*position: absolute;*/
+
+	width: 30%;
+	height: 100%;
+	left: 0%;
+	
+	color: #4e4e4e;
+
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	
+	cursor: default;
+
+	/*background-color: darkgreen;*/
+}
+
+#esencia_header{
+	/*position: absolute;*/
+
+	width: 30%;
+	height: 100%;
+	left: 32%;
+	
+	color: #4e4e4e;
+
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	
+	cursor: default;
+
+	/*background-color: brown;*/
+}
+
+#contacto_header{
+	/*position: absolute;*/
+
+	width: 30%;
+	height: 100%;
+	left: 70%;
+	
+	color: #4e4e4e;
+
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	
+	cursor: default;
+
+	/*background-color: darkblue;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#logo{
+	position: absolute;
+	width: 450px;
+}
+

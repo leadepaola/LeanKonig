@@ -1,0 +1,165 @@
+
+
+
+	@media screen and (max-width: 1280px){
+
+#web{
+	width: 63%;
+	height: 87%;
+}
+
+#header{
+	-webkit-box-shadow: 0px -32px 21px 24px #000000;
+	box-shadow: 		0px -32px 21px 24px #000000;
+}
+
+#titulo_1{
+	top: 9%;
+	font-size: 23px;
+}
+
+
+#contenedor_texto_1{
+	width: 34%;
+	height: 48%;
+	top: 34%;
+	left: 60%;
+}
+
+#texto_1{
+	font-size: 13px;
+}
+
+#contendor_boton_1{
+	top: 89%;
+}
+
+
+
+
+
+
+
+/*
+CONTENEDOR 2
+*/
+
+
+#titulo_2{
+	width: 66%;
+	top: 6%;
+	left: 35%;
+}
+
+
+#texto_form{
+	width: 55%;
+	left: 39%;
+	top: 18%;
+
+	font-size: 13px;
+}
+
+#contenedor_texto_2{
+	width: 29%;
+	height: 43%;
+	left: 6%;
+
+}
+
+
+#texto_2{
+	font-size: 13px;
+}
+
+
+
+
+#contenedor_formulario{
+	width: 30%;
+	left: 54%;/*53*//*61*/
+	top: 40%;
+}
+
+.CONTACTOinputForm{
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+CARTEL ERROR
+*/
+
+#CONTACTOcartelERROR{
+	width: 30%;
+	height: 47%;
+	top: 38%;
+	left: 54%;
+}
+
+#CONTACTOtituloCARTEL{
+	top: 0%;
+	font-size: 17px;
+}
+	
+
+#CONTACTOtextoCARTEL{
+	font-size: 11px;	
+}
+
+
+.CONTACTOtextoABAJO{
+	font-size: 13px;
+}
+
+
+#CONTACTOtexto3CARTEL{
+	top: 81%;
+}
+
+
+
+
+
+#cartel_transicion{
+	width: 42%;
+	height: 59%;
+	top: 33%;
+	left: 49%;
+}
+
+
+
+#CONTACTOcartel_ok{
+ 	width: 42%;
+	height: 59%;
+	top: 33%;
+	left: 49%;
+ }
+
+
+
+#CONTACTOtituloCARTEL_ok{
+	top: 54%;
+	font-size: 17px;
+}
+
+
+
+
+
+
+
+	}

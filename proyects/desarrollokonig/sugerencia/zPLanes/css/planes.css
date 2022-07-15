@@ -1,0 +1,322 @@
+
+
+
+
+
+
+
+.titulo_planes{
+
+	margin-top: 39px;
+
+	font-size: 52px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+.descripcion_planes{
+
+	margin-top: 10px;
+
+	font-size: 19px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+.content_plan{
+
+	width: 200px;
+	/*height: 420px;*/
+	
+	display: inline-block;
+
+	margin: 57px 10px 64px 10px;
+	
+	border-radius: 10px;
+	
+	vertical-align: top;
+
+	-webkit-box-shadow: 0px 0px 10px -3px #000000;
+	box-shadow: 		0px 0px 10px -3px #000000;
+	
+	cursor: pointer;
+
+	background-color: white;
+}
+
+
+
+.titulo_plan{
+
+	margin-top: 40px;
+
+	font-size: 32px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+.content_descuento{
+	width: 100%;
+	height: 45px;
+	
+	padding: 0 10% 0 10%;
+	margin: 6px 0 0 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 600;
+
+	box-sizing: border-box;
+
+	overflow: hidden;
+
+	background-color: white;
+}
+
+
+
+.precio_desc{
+	text-decoration: line-through;
+
+	font-size: 15px;
+	font-weight: 400;
+}
+
+
+
+.espacio_desc{
+	width: 10%;
+}
+
+
+.porc_desc{
+	width: 50%;
+
+	padding: 2% 3%;
+	border-radius: 10px;
+	
+	font-size: 12px;
+	color: white;
+
+	box-sizing: border-box;
+
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content_datos_precio{
+	position: relative;
+
+	width: 100%;
+	/*height: 89px;*/
+
+	padding: 0 10% 0 10%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 600;
+
+	box-sizing: border-box;
+
+	overflow: hidden;
+}
+
+
+.dolar_moneda{
+	position: relative;
+
+	width: 23%;
+	/*height: 100%;*/
+	top: 5px;
+
+	display: flex;
+	align-items: center;
+	
+	font-size: 18px;
+
+	/*background-color: pink;*/
+}
+
+.dolar_precio{
+	
+
+	width: 54%;
+	/*height: 100%;*/
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	font-size: 52px;
+
+
+	/*background-color: red;*/
+}
+
+.dec_tie{
+	text-align: start;
+}
+
+.dolar_decimales{
+	position: relative;
+	
+	width: 100%;
+	height: 50%;
+	left: -4px;
+	top: 4px;
+
+	font-size: 22px;
+	
+
+	/*background-color: blue;*/
+}
+.dolar_tiempo{
+	position: relative;
+
+	width: 100%;
+	height: 50%;
+	left: 2px;
+	top: 4px;
+
+	font-size: 15px;
+	font-weight: 400;
+	/*background-color: yellow;*/
+}
+
+
+
+
+
+
+
+.content_description_plan{
+	
+	margin: 25px 0 10px 0;
+	padding: 0 10% 0 10%;
+
+}
+
+
+.description_plan{
+	position: relative;
+	
+	width: 92%;
+	left: 18%;
+	
+	margin-top: 5px;
+	padding: 0 10% 0 0;
+	
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	color: #4a4a4a;
+
+	display: list-item;
+	text-align: start;
+
+	box-sizing: border-box;
+}
+
+
+.valor_pesos{
+	margin-top: 36px;
+	padding: 0 10%;
+
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+#dolar_precio_1{
+	width: 39%;
+}
+#dolar_precio_2{
+	width: 42%;
+}
+#dolar_precio_3{
+	width: 46%;
+}
+#dolar_precio_4{
+	width: 46%;
+}
+#dolar_precio_5{
+	
+}
+
+
+#cant_qr{
+	font-weight: 600;
+	color: black;
+}
+
+
+
+
+
+.btn_add_planes{
+	position: relative;
+
+	width: 100%;
+	height: 8%;
+	
+	padding: 8px;
+
+	margin-top: 33px;
+	
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	color: black;
+	
+	border-radius: 0 0 9px 9px;
+	/*border: 1px solid black;*/
+
+	box-sizing: border-box;
+
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+

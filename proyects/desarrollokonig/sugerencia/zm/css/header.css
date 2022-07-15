@@ -1,0 +1,199 @@
+body{
+	margin: 0;
+	overflow-x: hidden;
+	/*background-color: #fff;*/
+	background-color: #702b90;
+}
+
+
+a:-webkit-any-link {
+    /*color: white;*/
+    /*cursor: default;/*pointer o default*/
+    text-decoration: none;
+}
+
+
+/*----
+
+body::-webkit-scrollbar {
+	width: 8px;
+	
+}
+
+body::-webkit-scrollbar-thumb{
+	background-color: #c1c1c1;
+	border-radius: 30px;
+
+}
+
+body::-webkit-scrollbar-thumb:hover{
+
+}
+
+body::-webkit-scrollbar-button{
+	background-color: white;
+	height: 0%;
+
+}
+*/
+
+
+
+
+
+
+#header{
+	position: fixed;
+	z-index: 95;
+	
+	width: 100%;
+	height: 77px;
+	left: 0%;
+	top: 0%;
+	
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	color: white;
+
+	/*display: flex;*/
+	/*align-items: center;*/
+
+	-webkit-box-shadow: 	0px -2px 21px -5px #000000;
+	box-shadow: 			0px -2px 21px -5px #000000;
+
+	opacity: 0.6;
+	background-color: #702b90;
+	transition: .5s;
+}
+
+.content_menu{
+	position: absolute;
+
+	width: 20%;
+	height: 69px;
+	left: 80%;
+	
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+
+	/*background-color: blue;*/
+}
+
+.titanic path {
+    fill: white;
+    stroke: white;
+}
+
+#menu_icon{
+	position: absolute;
+	width: 27px;
+}
+
+#contenedor_en_header{
+	position: absolute;
+
+	width: 80%;
+	/*height: 60%;*/
+	left: 10%;
+	top: 73px;
+	
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color: white;
+
+	display: initial;
+	align-items: center;
+	justify-content: center;
+	
+	display: none;
+	opacity: 0;
+	transition: .5s;
+	/*background-color: darkred;*/
+}
+
+.menu__{
+	width: 100%;
+	height: 40px;
+	margin-top: 20px;
+	font-size: 18px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	/*padding-left: 15px;*/
+	/*border-left: 1px solid #9f72b4;*/
+
+}
+
+#empresa_header{
+	position: relative;
+	z-index: 250;
+
+	/*height: 33%;*/
+	/*left: 0%;*/
+	
+	color: white;
+	
+	cursor: default;
+
+	/*background-color: darkgreen;*/
+}
+
+#esencia_header{
+	position: relative;
+	z-index: 250;
+
+	/*height: 33%;*/
+	/*left: 32%;*/
+	
+	color: white;
+
+	cursor: default;
+
+	/*background-color: brown;*/
+}
+
+#contacto_header{
+	position: relative;
+	z-index: 250;
+
+	/*height: 33%;*/
+	/*left: 70%;*/
+	
+	color: white;
+
+	cursor: default;
+
+	/*background-color: darkblue;*/
+}
+
+
+
+
+
+
+
+
+
+#contendor_img{
+	position: absolute;
+	width: 94%;
+	height: 70px;
+	left: -8px;
+	
+	display: flex;
+	align-items: flex-end;
+
+	/*background-color: white;*/
+}
+
+
+
+
+#logo{
+	/*position: absolute;*/
+	width: 100%;
+}
+

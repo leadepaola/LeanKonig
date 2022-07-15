@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+#content_8{
+	height: 206px;
+	
+	margin-bottom: 200px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	/*background-color: red;*/
+}
+
+
+
+.content_img_8{
+	width: 372px;
+	height: 206px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	/*background-color: darkred;*/
+}
+
+#img_8{
+	width: 322px;
+	
+	border-radius: 20px;
+
+	-webkit-box-shadow: 	0px 0px 9px -3px #000000;
+	box-shadow: 			0px 0px 9px -3px #000000;
+}

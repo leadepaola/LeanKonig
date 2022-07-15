@@ -1,0 +1,437 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content_3{
+
+}
+	
+
+
+
+
+
+#mobile_smart_3{
+	position: absolute;
+
+	width: 316px;
+
+	left: 10%;
+	top: -34px;
+}
+
+
+
+
+
+#titulo_3{
+	position: relative;
+	z-index: 50;
+
+	width: 40%;
+	
+	/*margin-top: 300px;*/
+	margin-left: 50%;
+	/*margin-bottom: 3%;*/
+
+	/*padding-top: 150px;*/
+	
+	font-family: 'Quicksand', sans-serif;
+	font-size: 32px;
+	font-weight: 600;
+	color: transparent;
+
+	text-align: end;
+	
+	cursor: default;
+	/*background-color: darkred;*/
+}
+
+
+
+
+#texto_3{
+	/*position: absolute;*/
+
+	width: 40%;
+
+	margin-top: 15px;
+	margin-left: 50%;
+	margin-bottom: 201px;
+
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+	/*font-weight: 600;*/
+	color: black;
+
+
+	text-align: end;
+	
+	cursor: default;
+	/*background-color: white;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#linea1_titulo_2{
+	position: absolute;
+
+	width: 5%;
+	height: 5%;
+	top: 100%;
+	margin-left: 0%;
+	border-bottom: 1px solid #dfdfdf;
+
+	/*background-color: darkblue;*/
+}
+
+#linea2_titulo_2{
+	position: absolute;
+	width: 20%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+	border-bottom: 2px solid black;
+	
+	transition: .5s;
+	/*background-color: darkblue;*/
+}
+
+
+
+
+
+
+/*
+                                     #####  
+##### ###### #    # #####  ####     #     # 
+  #   #       #  #    #   #    #          # 
+  #   #####    ##     #   #    #     #####  
+  #   #        ##     #   #    #    #       
+  #   #       #  #    #   #    #    #       
+  #   ###### #    #   #    ####     ####### 
+  */
+#contenedor_texto_2{
+		position: relative;
+		z-index: 30;
+
+		width: 80%;
+		height: 248px;
+		top: 152%;
+		left: 10%;
+		
+		margin-bottom: 21%;
+
+		overflow: hidden;
+		overflow-y: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#  ####   ####  #    #  ####   ####  
+# #    # #    # ##   # #    # #      
+# #      #    # # #  # #    #  ####  
+# #      #    # #  # # #    #      # 
+# #    # #    # #   ## #    # #    # 
+#  ####   ####  #    #  ####   ####  
+
+#####    ##   #####  ####   ####  
+#    #  #  #    #   #    # #      
+#    # #    #   #   #    #  ####  
+#    # ######   #   #    #      # 
+#    # #    #   #   #    # #    # 
+#####  #    #   #    ####   #### 
+*/
+
+
+
+
+
+#contenedor_datos_contacto{
+	position: absolute;
+
+	width: 26%;
+	height: 62%;
+	left: 59%;
+	top: 18%;
+
+	/*background-color: red;*/
+}
+
+
+
+
+
+
+
+.contacto_datos{
+	position: relative;
+
+	width: 100%;
+	height: 92px;
+	left: 0%;
+
+	margin-bottom: 3.5%;
+	
+	border-radius: 0px;
+
+	/*border-left: 1px solid #c6a6d4;*/
+	/*border-bottom: 1px solid #c6a6d4;*/
+	
+	/*-webkit-box-shadow: 	1px 1px 5px -2px #000000;*/
+	/*box-shadow: 			1px 1px 5px -2px #000000;*/
+
+	/*background-color: #6b1f8d;*/
+}
+
+
+
+.contacto_icon{
+	position: absolute;
+	z-index: 10;
+
+	width: 19%;/*60px*/
+	height: 53px;
+	left: 0%;
+	top: 0%;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	border-radius: 7px;
+		
+	box-shadow: 1px 1px 5px -2px #000000;
+
+	background-color: #6b1f8d;
+	transition: .9s;
+}
+
+
+
+.icon_contacto_size{
+	font-size: 25px;
+	color: #c6a6d4;
+}
+
+
+
+
+.contacto_icon_text{
+	position: absolute;
+	
+	width: 73%;
+	height: 100%;
+	left: 0%;
+	top: 0%;
+	
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color: #c6a6d4;
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+	/*background-color: antiquewhite;*/
+	
+	opacity: 1;/*1*/
+	/*transition: 1.5s;*/
+}
+
+
+
+
+
+
+
+
+
+.content_texto_icon{
+	position: absolute;
+
+	width: 99%;/*100%*/
+	height: 46px;
+	left: 0%;
+	top: 4%;
+
+	border-radius: 7px;
+	
+	/*display: none;*/
+
+	/*-webkit-box-shadow: 	1px 1px 5px -2px #000000;*/
+	/*box-shadow: 			1px 1px 5px -2px #000000;*/
+	
+	/*border-color: 1px solid rgb(198, 166, 212);*/
+	
+	background-color: #6b1f8d;
+	overflow: hidden; 
+	transition: 1s;
+}
+
+
+
+.tapa_content_text{
+	position: absolute;
+
+	width: 100%;/*100%*/
+	height: 50px;
+	left: 0%;
+	top: 2%;
+
+	border-radius: 7px;
+	
+	/*display: none;*/
+
+	/*-webkit-box-shadow: 	1px 1px 5px -2px #000000;*/
+	/*box-shadow: 			1px 1px 5px -2px #000000;*/
+
+	background-color: #702b90;
+	overflow: hidden; 
+	transition: 1s;
+}
+
+
+#img_icon{
+	width: 32px;
+}
+
+
+
+
+#espacio_icon{
+	display: contents;
+	align-items: center;
+	justify-content: center;
+	
+	color: #6b1f8d;
+}
+
+
+.pointer{
+	cursor: pointer;
+}
+
+#a_instagram{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.linea_vertical{
+	position: absolute;
+
+	width: 1px;
+	height: 250px;
+	left: 24.5%;
+	top: 54%;
+
+	border: 5px;
+	display: none;
+	background-color: white;
+}
+
+#img_contacto{
+	position: absolute;
+
+	width: 253px;
+
+	left: 4.5%;
+	top: 54%;
+}
