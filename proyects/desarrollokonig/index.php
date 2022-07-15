@@ -55,6 +55,6 @@ else if ($mobile_browser > 0) {
 }
 else {
 // Si es PC has lo que necesites
-    header('Location: index.html');
+    header('Location: web/index.html');
 }  
 ?>
