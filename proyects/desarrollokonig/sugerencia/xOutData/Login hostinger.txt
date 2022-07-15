@@ -1,8 +1,0 @@
-https://www.000webhost.com/cpanel-login
-
-
-user:
-esence.dev@gmail.com
-
-pass:
-esencedev01
