@@ -11,4 +11,10 @@ RewriteEngine on
 RewriteRule ^proyects/desarrollokonig$ /proyects/desarrollokonig/canal.php [L]
 
 RewriteEngine on
-RewriteRule ^proyects/desarrollokonig/$ /proyects/desarrollokonig/canal.php [L]
+RewriteRule ^proyects/desarrollokonig/$ /proyects/desarrollokonig/canal.php [L
+
+
+
+# Trabajo naves
+RewriteEngine on
+RewriteRule ^naves$ https://docs.google.com/presentation/d/1Zufx7BaRTREvmlS9FR44cLEDFzLK6eYGgKjoQ1GhPk4/edit?usp=sharing [L]
