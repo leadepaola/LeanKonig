@@ -4,7 +4,18 @@
 echo "Hola 2 <br />";
 
 
-$index_var 		= $_GET['index_var'];
+
+	
+if(empty($_GET['index_var'])){
+
+	$index_var = 'inicio';
+	
+}else{
+	
+	$index_var 		= $_GET['index_var'];
+}
+
+
 
 echo $index_var;
 
@@ -17,10 +28,10 @@ echo $index_var;
 switch ($index_var) {
 
 	case 'desarrollokonig':
-		//header("location: /proyects/desarrollokonig/canal.php");
-		//echo $fila['fecha_web'];
-		header("location: ./proyects/desarrollokonig/index.html");
-		//header("location:./AAAAA");
+		header("location: ./proyects/desarrollokonig/canal.php");
+		
+		//header("location: ./proyects/desarrollokonig/index.php");
+		
 	break;
 }
 /*
