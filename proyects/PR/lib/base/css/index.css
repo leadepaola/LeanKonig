@@ -1,0 +1,103 @@
+
+
+body{
+/*	position: relative;*/
+}
+
+/*LOGO LCW*/
+
+.general{
+	position: absolute;
+	top: 18%;
+
+	width: 100%;
+}
+
+.noup_logo_content{
+	width: 100%;
+	height: 240px;
+
+	background-color: black;
+
+	-webkit-box-shadow: 0px 0px 23px 5px rgb(0 0 0 / 45%);
+    box-shadow: 		0px 0px 23px 5px rgb(0 0 0 / 45%);
+
+    display: flex;
+    justify-content: center;
+
+    cursor: pointer;
+    
+}
+
+.noup_logo_content:hover{
+
+	-webkit-box-shadow: 0px 0px 66px 20px rgb(0 0 0 / 30%);
+    box-shadow: 		0px 0px 66px 20px rgb(0 0 0 / 30%);	
+}
+
+
+
+.noup_logo_tit_cont{
+	height: 240px;
+
+	font-family: "roboto-300";
+	color: rgb(228 228 228);
+
+}
+
+.noup_logo_tit{
+	position: relative;
+
+	margin-top: 70px;
+
+	font-size: 60px;
+	/*transition: .3s;	*/
+}
+
+.noup_logo_decrip{
+	position: absolute;
+	top: 75px;
+	right: 3px;
+	font-family: 'Newsreader', serif;
+	font-weight: 300;
+	font-size: 13px;
+	text-align: end;
+
+	color: rgb(228 228 228);
+}
+
+
+
+
+
+
+
+
+/*TEXTO DESCRIPCION*/
+
+
+.noup_desc_content{
+	width: 100%;
+
+	margin-top: 0px;
+
+   	text-align: center;
+
+    font-family: "roboto-300";
+	color: black;
+}
+
+.noup_desc_tit{
+	margin-top: 47px;
+
+
+	font-size: 25px;
+	font-weight: 600;	
+}
+
+.noup_desc_desc{
+	font-size: 19px;	
+	font-family: 'Newsreader', serif;
+	font-weight: 400;
+	color: #3a3a3a;
+}

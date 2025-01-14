@@ -4,6 +4,8 @@
 echo "Hola 2 <br />";
 
 
+//echo "$_GET['index_var']";
+
 	
 if(empty($_GET['index_var'])){
 
@@ -34,8 +36,8 @@ switch ($index_var) {
 	break;
 
 
-	case 'hola':
-		header("location: ./proyects/desarrollokonig/canal.php");
+	case 'mdq':
+		header("location: ./mdq25/index.php");
 		
 	break;
 

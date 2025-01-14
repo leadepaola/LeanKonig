@@ -38,3 +38,9 @@ RewriteRule ^cv https://drive.google.com/drive/folders/1FDNREs0tWUSnpnegRQv55NWT
 # index_var
 RewriteEngine on
 RewriteRule ^desarrollokonig$ ./index.php?index_var=desarrollokonig [L]
+
+
+RewriteEngine on
+RewriteRule ^mdq$ ./index.php?index_var=mdq [L]
+RewriteEngine on
+RewriteRule ^MDQ$ ./index.php?index_var=mdq [L]
