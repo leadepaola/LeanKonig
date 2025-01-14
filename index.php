@@ -1,9 +1,17 @@
 <?php 
 
-echo "Hola 2";
+
+echo "Hola 2 <br />";
+
 
 $index_var 		= $_GET['index_var'];
+
 echo $index_var;
+
+
+
+
+
 
 
 switch ($index_var) {
