@@ -4,14 +4,13 @@
 echo "Hola 2 <br />";
 
 
-
 	
 if(empty($_GET['index_var'])){
 
 	$index_var = 'inicio';
 	
 }else{
-	
+
 	$index_var 		= $_GET['index_var'];
 }
 
@@ -32,6 +31,16 @@ switch ($index_var) {
 		
 		//header("location: ./proyects/desarrollokonig/index.php");
 		
+	break;
+
+
+	case 'hola':
+		header("location: ./proyects/desarrollokonig/canal.php");
+		
+	break;
+
+	default:
+		//header("location: index.php");
 	break;
 }
 /*

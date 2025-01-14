@@ -8,12 +8,19 @@ Options All -Indexes
 #DirectoryIndex ./index.php?index_var=indexvar [L]
 
 # Login
-RewriteEngine on
-RewriteRule ^proyects/desarrollokonig$ /proyects/desarrollokonig/canal.php [L]
+#RewriteEngine on
+#RewriteRule ^proyects/desarrollokonig$ /proyects/desarrollokonig/canal.php [L]
 
-RewriteEngine on
-RewriteRule ^proyects/desarrollokonig/$ /proyects/desarrollokonig/canal.php [L]
+#RewriteEngine on
+#RewriteRule ^proyects/desarrollokonig/$ /proyects/desarrollokonig/canal.php [L]
 
+
+
+
+
+# Errors views
+ErrorDocument 404 ./others/error_views/404.php
+ErrorDocument 403 ./others/error_views/404.php
 
 
 # Trabajo naves
