@@ -1,6 +1,6 @@
 <?php 
 
-echo "Hola ";
+echo "Hola 2";
 
 $index_var 		= $_GET['index_var'];
 echo $index_var;
