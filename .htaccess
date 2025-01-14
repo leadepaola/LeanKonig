@@ -41,6 +41,6 @@ RewriteRule ^desarrollokonig$ ./index.php?index_var=desarrollokonig [L]
 
 
 RewriteEngine on
-RewriteRule ^mdq$ ./index.php?index_var=mdq [L]
+RewriteRule ^pr$ ./index.php?index_var=PR [L]
 RewriteEngine on
-RewriteRule ^MDQ$ ./index.php?index_var=mdq [L]
+RewriteRule ^PR$ ./index.php?index_var=PR [L]

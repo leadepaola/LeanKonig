@@ -36,8 +36,8 @@ switch ($index_var) {
 	break;
 
 
-	case 'mdq':
-		header("location: ./mdq25/index.php");
+	case 'PR':
+		header("location: ./proyects/PR/index.php");
 		
 	break;
 

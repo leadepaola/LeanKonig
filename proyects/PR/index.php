@@ -50,7 +50,7 @@
 		<div class="noup_logo_content">
 			<div class="noup_logo_tit_cont">
 				<div class="noup_logo_tit">
-					PLAYA
+					PR
 
 					<div class="noup_logo_decrip">
 						<!-- Programador -->
