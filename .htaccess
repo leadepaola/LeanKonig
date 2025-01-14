@@ -5,7 +5,7 @@ Options All -Indexes
 #RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 
-DirectoryIndex ./index.php?index_var=indexvar [L]
+DirectoryIndex /index.php?index_var=indexvar [L]
 
 # Login
 RewriteEngine on
