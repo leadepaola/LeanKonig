@@ -2,10 +2,10 @@
 
 <?php 
 
-echo "404 <br />";
+	//echo "404 <br />";
 
-/*
-	include('./server_local/google_analytics.php');
+
+	//include('./server_local/google_analytics.php');
 
 	//dispositivo_de_ingreso
 	include('php/canal.php');
@@ -20,7 +20,7 @@ echo "404 <br />";
 <head>
 
 	<?php 
-		echo $google_analytics; 
+		//echo $google_analytics; 
 
 		
 		//VARIABLES routs 
@@ -50,11 +50,12 @@ echo "404 <br />";
 		<div class="noup_logo_content">
 			<div class="noup_logo_tit_cont">
 				<div class="noup_logo_tit">
-					LowCostWeb
+					LeanKönig
 
 					<div class="noup_logo_decrip">
-						Tiendas virtuales
+						<!-- Programador -->
 					</div>
+
 				</div>
 				
 			</div>
@@ -64,7 +65,7 @@ echo "404 <br />";
 		<div class="noup_desc_content">
 
 				<div class="noup_desc_tit">
-					404
+					404 || 403
 				</div>
 				<div class="noup_desc_desc">
 					La dirección que has escrito no existe dentro de lowcostweb

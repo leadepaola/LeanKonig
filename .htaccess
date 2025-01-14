@@ -19,8 +19,8 @@ Options All -Indexes
 
 
 # Errors views
-ErrorDocument 404 ./others/error_views/404.php
-ErrorDocument 403 ./others/error_views/404.php
+ErrorDocument 404 /others/error_views/404.php
+ErrorDocument 403 /others/error_views/404.php
 
 
 # Trabajo naves
