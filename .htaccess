@@ -6,15 +6,28 @@ Options All -Indexes
 
 
 
+
 # Login
 RewriteEngine on
 RewriteRule ^proyects/desarrollokonig$ /proyects/desarrollokonig/canal.php [L]
 
 RewriteEngine on
-RewriteRule ^proyects/desarrollokonig/$ /proyects/desarrollokonig/canal.php [L
+RewriteRule ^proyects/desarrollokonig/$ /proyects/desarrollokonig/canal.php [L]
 
 
 
 # Trabajo naves
 RewriteEngine on
 RewriteRule ^naves$ https://docs.google.com/presentation/d/1Zufx7BaRTREvmlS9FR44cLEDFzLK6eYGgKjoQ1GhPk4/edit?usp=sharing [L]
+
+
+
+# Curriculum y timeline actualizado al 22/11/24 - carpeta compartida en google drive
+RewriteEngine on
+RewriteRule ^cv https://drive.google.com/drive/folders/1FDNREs0tWUSnpnegRQv55NWTZQ0JyirU?usp=sharing [L]
+
+
+
+# index_var
+RewriteEngine on
+RewriteRule ^desarrollokonig$ ./index.php?index_var=desarrollokonig [L]
