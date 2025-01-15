@@ -16,16 +16,16 @@
 <link rel="stylesheet" href="<?php echo $routs; ?>lib/icons/bigmug_and_slim/icon.css">
 
 <!-- 	materealize 				-->
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize.css?2025_1_15_0847">
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize_control.css?2025_1_15_0847">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize.css?2025_1_15_0856">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize_control.css?2025_1_15_0856">
 
 <!-- 	fonts 						-->
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/fonts.css?2025_1_15_0847">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/fonts.css?2025_1_15_0856">
 
 <!-- 	css 						-->
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/index.css?2025_1_15_0847">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/index.css?2025_1_15_0856">
 
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/style.css?2025_1_15_0847">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/style.css?2025_1_15_0856">
 
 
 
@@ -47,11 +47,11 @@
 	switch ($view_activa) {
 		
 		case '1':
-			//echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/inicio/prod_destacados.css?2025_1_15_0847">';
+			//echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/inicio/prod_destacados.css?2025_1_15_0856">';
 		break;
 
 		case '2':
-			echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/samsara.css?2025_1_15_0847">';
+			echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/samsara.css?2025_1_15_0856">';
 		break;
 	}
 
