@@ -50,7 +50,7 @@
 	.pr_content_general_img_fondo{
 		position: fixed;
 		width: 100%;
-		height: 120vh;
+		height: 100vh;
 
 		object-fit: cover;
 		filter: blur(1px)!important;
