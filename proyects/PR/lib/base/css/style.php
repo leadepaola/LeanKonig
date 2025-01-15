@@ -45,7 +45,9 @@
 		/*background-color: red;*/
 
 		display: flex;
- 	   justify-content: center;
+		justify-content: center;
+		overflow: scroll;
+
 	}
 
 
@@ -73,7 +75,7 @@
 
 
 	.pr_content_secundario{
-		position: fixed;
+		position: relative;
 
 		width: 86%;
 	    height: 80vh;
@@ -86,6 +88,8 @@
 
 	    display: flex;
 		justify-content: center;
+
+		margin-bottom: 200px;
 	}
 
 
