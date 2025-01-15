@@ -147,8 +147,7 @@
 
 		/*background-color: red;*/
 
-		display: flex;
-		justify-content: center;
+		display: inline-block;
 
 		padding-top: 55px;
 	}
@@ -156,16 +155,18 @@
 	.pr_link{
 		position: relative;
 
-		width: 85%;
+		width: 90%;
     	height: 65px;
-    	
+    	left: 5%;
+
     	border-radius: 10px;
 
     	/*background-color: black;*/
 
     	display: flex;
-		/*justify-content: center;*/
+		
     	align-items: center;
+    	margin-bottom: 20px;
 
 	}
 
@@ -177,7 +178,7 @@
 				height: 100%;
 		    	border-radius: 10px;
 
-				background-color: #4f4f4f47;
+				background-color: #4f4f4f6b;
 				/*opacity: 0.4;*/
 				
 				backdrop-filter: blur(5px);

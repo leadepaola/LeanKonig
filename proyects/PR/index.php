@@ -32,7 +32,7 @@
 		//$routs="./"; //borrar en server
 		include('routs/head.php');
 	?>
-	<meta name=”theme-color” content=”black” />
+
 </head>
 
 
@@ -69,20 +69,35 @@
 			<!-- Titulo -->
 			<div class="pr_titulo">Lean König</div>
 
-
+			<a href=""></a>
 
 			<!-- Contendor general de links -->
 			<div class="pr_cotent_links">
 				
-				<div class="pr_link">
+				<a class="pr_link" href="">
 					<div class="pr_link_transparencia"></div>				
 
 					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
 
 					<div class="pr_link_texto">Samsara Beach</div>	
-				</div>
+				</a>
+
+				<a class="pr_link" href="">
+					<div class="pr_link_transparencia"></div>				
+
+					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
+
+					<div class="pr_link_texto">Sonora Park</div>	
+				</a>
+
 
 			</div>
+
+
+	
+				
+
+			
 
 
 
