@@ -14,7 +14,9 @@
 		?>
 	}	
 
-
+:root{
+	--main-color_FRUTAS: #black;
+	}
 
 	body{
 
