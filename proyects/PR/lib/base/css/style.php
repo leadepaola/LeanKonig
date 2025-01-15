@@ -31,7 +31,9 @@
 	    display: flex;
 		align-items: center;
 	    justify-content: center;
+
 */	    
+		overflow: hidden;
 	}
 
 	.pr_content_general{
