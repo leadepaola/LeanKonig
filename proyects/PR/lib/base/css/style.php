@@ -58,7 +58,7 @@
 
 	.pr_conent_general_filtro{
 		width: 100%;
-		height: 100%;
+		height: 120%;
 
 		background-color: white;
 		opacity: 0.4;
