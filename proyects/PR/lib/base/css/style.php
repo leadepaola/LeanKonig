@@ -88,6 +88,7 @@
 
 
 	.pr_content_secundario_img_fondo{
+		position: fixed;
 		width: 100%;
 		height: 100vh;
 
