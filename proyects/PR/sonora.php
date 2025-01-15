@@ -78,7 +78,7 @@
 			<div class="pr_cotent_links">
 				
 				<!-- Link -->
-				<a class="pr_link" href="">
+				<a class="pr_link" href="https://planout.ar/eventos/es/sonora-guyj-guymantzur">
 					<div class="pr_link_transparencia"></div>				
 
 					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
@@ -88,7 +88,7 @@
 
 
 				<!-- Link -->
-				<a class="pr_link" href="">
+				<a class="pr_link" href="https://planout.ar/eventos/es/sonora-guyj-guymantzur">
 					<div class="pr_link_transparencia"></div>				
 
 					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
@@ -97,7 +97,7 @@
 				</a>
 
 				<!-- Link -->
-				<a class="pr_link" href="">
+				<a class="pr_link" href="https://planout.ar/eventos/es/sonora-guyj-guymantzur">
 					<div class="pr_link_transparencia"></div>				
 
 					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
@@ -106,7 +106,7 @@
 				</a>
 
 				<!-- Link -->
-				<a class="pr_link" href="">
+				<a class="pr_link" href="https://planout.ar/eventos/es/sonora-guyj-guymantzur">
 					<div class="pr_link_transparencia"></div>				
 
 					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
@@ -115,7 +115,7 @@
 				</a>
 
 				<!-- Link -->
-				<a class="pr_link" href="">
+				<a class="pr_link" href="https://planout.ar/eventos/es/sonora-guyj-guymantzur">
 					<div class="pr_link_transparencia"></div>				
 
 					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
@@ -124,7 +124,7 @@
 				</a>
 
 				<!-- Link -->
-				<a class="pr_link" href="">
+				<a class="pr_link" href="https://planout.ar/eventos/es/sonora-guyj-guymantzur">
 					<div class="pr_link_transparencia"></div>				
 
 					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
@@ -133,7 +133,7 @@
 				</a>
 
 				<!-- Link -->
-				<a class="pr_link" href="">
+				<a class="pr_link" href="https://planout.ar/eventos/es/sonora-guyj-guymantzur">
 					<div class="pr_link_transparencia"></div>				
 
 					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
