@@ -16,16 +16,16 @@
 <link rel="stylesheet" href="<?php echo $routs; ?>lib/icons/bigmug_and_slim/icon.css">
 
 <!-- 	materealize 				-->
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize.css?2025_1_15_0920">
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize_control.css?2025_1_15_0920">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize.css?2025_1_15_0934">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize_control.css?2025_1_15_0934">
 
 <!-- 	fonts 						-->
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/fonts.css?2025_1_15_0920">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/fonts.css?2025_1_15_0934">
 
 <!-- 	css 						-->
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/index.css?2025_1_15_0920">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/index.css?2025_1_15_0934">
 
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/style.css?2025_1_15_0920">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/style.css?2025_1_15_0934">
 
 
 
@@ -48,18 +48,18 @@
 		
 		//index
 		case '1':
-			//echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/inicio/prod_destacados.css?2025_1_15_0920">';
+			//echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/inicio/prod_destacados.css?2025_1_15_0934">';
 		break;
 
 		//samsara
 		case '2':
-			echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/samsara.css?2025_1_15_0920">';
+			echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/samsara.css?2025_1_15_0934">';
 		break;
 
 		//sonora
 		case '3':
-			echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/samsara.css?2025_1_15_0920">';
-			echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/sonora.css?2025_1_15_0920">';
+			echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/samsara.css?2025_1_15_0934">';
+			echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/sonora.css?2025_1_15_0934">';
 		break;
 	}
 

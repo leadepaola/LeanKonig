@@ -102,6 +102,8 @@
 		width: 86%;
 	    height: 75vh;
 	    top: 14%;
+
+	    max-width: 500px;
 	    /*background-color: white;*/
 
 	    border-radius: 20px 20px 0px 0px;
@@ -175,6 +177,14 @@
 
 		/*overflow: scroll;*/
 	}
+
+	.pr_cotent_links::-webkit-scrollbar {
+	width: 0px;
+		
+	}
+
+
+
 
 	.pr_link{
 		position: relative;
