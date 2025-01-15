@@ -24,11 +24,11 @@
 
 		
 		//VARIABLES routs 
-		//index=404
-		$view_activa=404;
+		//index=1
+		$view_activa=1;
 
-		$titulo_pagina = "Noup";
-		$routs="/others/error_views/";
+		$titulo_pagina = "Main";
+		$routs="./";
 		//$routs="./"; //borrar en server
 		include('routs/head.php');
 	?>
@@ -37,15 +37,77 @@
 
 
 
-<body>
+<body >
 
 	<?php 
 	
-		include('lib/base/css/style.php');
+		include('./lib/base/css/style.php');
+
 
 	?>
 
+	<!-- Contenedor General -->
+	<div class="pr_content_general" >
 
+		<!-- Imagen fondo -->
+		<img class="pr_content_general_img_fondo" src="./images/samsara2.jpg"> 
+		<div class="pr_conent_general_filtro"></div>
+	
+
+		<!-- Contenedor secundario -->
+		<div class="pr_content_secundario">
+			
+			<!-- Imagen de fondo -->
+			<img class="pr_content_secundario_img_fondo" src="./images/samsara2.jpg"> 
+			
+
+			<!-- Imagen de perfil -->
+			<div class="pr_content_img_perfil">
+				<img class="pr_img_perfil" src="./images/leankonig_perfil.jpg"></img>
+			</div>
+		
+			<!-- Titulo -->
+			<div class="pr_titulo">Lean König</div>
+
+
+
+			<!-- Contendor general de links -->
+			<div class="pr_cotent_links">
+				
+				<div class="pr_link">
+					<div class="pr_link_transparencia"></div>				
+
+					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
+
+					<div class="pr_link_texto">Samsara Beach</div>	
+				</div>
+
+			</div>
+
+
+
+
+
+
+
+
+		</div>
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+<!--
 	<div class="general">
 		<div class="noup_logo_content">
 			<div class="noup_logo_tit_cont">
@@ -53,7 +115,7 @@
 					PR
 
 					<div class="noup_logo_decrip">
-						<!-- Programador -->
+						<!- Programador ->
 					</div>
 
 				</div>
@@ -75,7 +137,7 @@
 
 		</div>
 	</div>
-
+-->
 
 
 	<?php 

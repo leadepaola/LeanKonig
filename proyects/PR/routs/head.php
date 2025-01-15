@@ -44,7 +44,7 @@
 	// css
 	switch ($view_activa) {
 		
-		case '404':
+		case '1':
 			//echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/inicio/prod_destacados.css?2021_5_21_0320">';
 		break;
 	}

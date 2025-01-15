@@ -7,14 +7,6 @@ Options All -Indexes
 
 #DirectoryIndex ./index.php?index_var=indexvar [L]
 
-# Login
-#RewriteEngine on
-#RewriteRule ^proyects/desarrollokonig$ /proyects/desarrollokonig/canal.php [L]
-
-#RewriteEngine on
-#RewriteRule ^proyects/desarrollokonig/$ /proyects/desarrollokonig/canal.php [L]
-
-
 
 
 
@@ -35,10 +27,12 @@ RewriteRule ^cv https://drive.google.com/drive/folders/1FDNREs0tWUSnpnegRQv55NWT
 
 
 
-# index_var
+
+
+
+# VARIABLE index_var
 RewriteEngine on
 RewriteRule ^desarrollokonig$ ./index.php?index_var=desarrollokonig [L]
-
 
 RewriteEngine on
 RewriteRule ^pr$ ./index.php?index_var=PR [L]

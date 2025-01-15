@@ -68,7 +68,7 @@
 					404 || 403
 				</div>
 				<div class="noup_desc_desc">
-					La dirección que has escrito no existe dentro de Leankonig.com.ar
+					La dirección que has escrito no existe dentro de leankonig.com.ar
 					<br>
 					Click en el logo para ir a inicio
 				</div>
