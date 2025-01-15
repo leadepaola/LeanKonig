@@ -89,7 +89,7 @@
 	    display: flex;
 		justify-content: center;
 
-		margin-bottom: 200px;
+		margin-bottom: 250px;
 	}
 
 
