@@ -25,9 +25,9 @@
 		
 		//VARIABLES routs 
 		//index=1
-		$view_activa=2;
+		$view_activa=3;
 
-		$titulo_pagina = "Samsara Beach";
+		$titulo_pagina = "Sonora Park";
 		$routs="./";
 		//$routs="./"; //borrar en server
 		include('routs/head.php');
@@ -53,7 +53,7 @@
 
 
 		<!-- Imagen fondo -->
-		<img class="pr_content_general_img_fondo" src="./images/samsara2.jpg"> 
+		<img class="pr_content_general_img_fondo" src="./images/sonora_fondo.jpg"> 
 		<div class="pr_conent_general_filtro"></div>
 	
 
@@ -61,12 +61,12 @@
 		<div class="pr_content_secundario">
 			
 			<!-- Imagen de fondo -->
-			<img class="pr_content_secundario_img_fondo" src="./images/samsara2.jpg"> 
+			<img class="pr_content_secundario_img_fondo" src="./images/sonora_fondo.jpg"> 
 			
 
 			<!-- Imagen de perfil -->
 			<div class="pr_content_img_perfil">
-				<img class="pr_img_perfil" src="./images/samsara_logo.jpeg"></img>
+				<img class="pr_img_perfil" src="./images/sonora_logo.jpg"></img>
 			</div>
 		
 			<!-- Titulo -->
@@ -81,7 +81,7 @@
 				<a class="pr_link" href="">
 					<div class="pr_link_transparencia"></div>				
 
-					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
+					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
 
 					<div class="pr_link_texto">Jueves 16.01</div>	
 				</a>
@@ -91,7 +91,7 @@
 				<a class="pr_link" href="">
 					<div class="pr_link_transparencia"></div>				
 
-					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
+					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
 
 					<div class="pr_link_texto">Viernes 17.01</div>	
 				</a>
@@ -100,7 +100,7 @@
 				<a class="pr_link" href="">
 					<div class="pr_link_transparencia"></div>				
 
-					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
+					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
 
 					<div class="pr_link_texto">Sábado 18.01</div>	
 				</a>
@@ -109,7 +109,7 @@
 				<a class="pr_link" href="">
 					<div class="pr_link_transparencia"></div>				
 
-					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
+					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
 
 					<div class="pr_link_texto">Domingo 19.01</div>	
 				</a>
@@ -118,7 +118,7 @@
 				<a class="pr_link" href="">
 					<div class="pr_link_transparencia"></div>				
 
-					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
+					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
 
 					<div class="pr_link_texto">Lunes 20.01</div>	
 				</a>
@@ -127,7 +127,7 @@
 				<a class="pr_link" href="">
 					<div class="pr_link_transparencia"></div>				
 
-					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
+					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
 
 					<div class="pr_link_texto">Martes 21.01</div>	
 				</a>
@@ -136,7 +136,7 @@
 				<a class="pr_link" href="">
 					<div class="pr_link_transparencia"></div>				
 
-					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
+					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
 
 					<div class="pr_link_texto">Miércoles 22.01</div>	
 				</a>

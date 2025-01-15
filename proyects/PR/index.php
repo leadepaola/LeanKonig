@@ -69,6 +69,7 @@
 			<!-- Contendor general de links -->
 			<div class="pr_cotent_links">
 				
+
 				<a class="pr_link" href="./samsara.php">
 					<div class="pr_link_transparencia"></div>				
 
@@ -77,7 +78,7 @@
 					<div class="pr_link_texto">Samsara Beach</div>	
 				</a>
 
-				<a class="pr_link" href="">
+				<a class="pr_link" href="./sonora.php">
 					<div class="pr_link_transparencia"></div>				
 
 					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
