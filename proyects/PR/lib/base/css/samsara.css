@@ -11,7 +11,9 @@
 	height: -webkit-fill-available;
 	top: 200px;
 
-	padding-bottom: 25px;
+	padding-bottom: 100px;
+	padding-top: 60px;
+	border-top: 1px solid #d5d5d5;
 
 	overflow: scroll;
 }
