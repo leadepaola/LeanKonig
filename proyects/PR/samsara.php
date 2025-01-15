@@ -25,7 +25,7 @@
 		
 		//VARIABLES routs 
 		//index=1
-		$view_activa=1;
+		$view_activa=2;
 
 		$titulo_pagina = "Main";
 		$routs="./";
@@ -63,7 +63,7 @@
 
 			<!-- Imagen de perfil -->
 			<div class="pr_content_img_perfil">
-				<img class="pr_img_perfil" src="./images/leankonig_perfil.jpg"></img>
+				<img class="pr_img_perfil" src="./images/samsara_logo.jpeg"></img>
 			</div>
 		
 			<!-- Titulo -->
@@ -74,20 +74,20 @@
 			<!-- Contendor general de links -->
 			<div class="pr_cotent_links">
 				
-				<a class="pr_link" href="./samsara.php">
+				<a class="pr_link" href="">
 					<div class="pr_link_transparencia"></div>				
 
 					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
 
-					<div class="pr_link_texto">Samsara Beach</div>	
+					<div class="pr_link_texto">Jueves 16.01</div>	
 				</a>
 
 				<a class="pr_link" href="">
 					<div class="pr_link_transparencia"></div>				
 
-					<img class="pr_link_logo" src="./images/sonora_logo.jpg"></img>
+					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
 
-					<div class="pr_link_texto">Sonora Park</div>	
+					<div class="pr_link_texto">Viernes 17.01</div>	
 				</a>
 
 

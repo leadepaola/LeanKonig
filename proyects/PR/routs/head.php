@@ -25,6 +25,8 @@
 <!-- 	css 						-->
 <link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/index.css?2021_5_21_0320">
 
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/style.css?2021_5_21_0320">
+
 
 
 <!--	Google fonts				-->
@@ -46,6 +48,10 @@
 		
 		case '1':
 			//echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/inicio/prod_destacados.css?2021_5_21_0320">';
+		break;
+
+		case '2':
+			echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/samsara.css?2021_5_21_0320">';
 		break;
 	}
 
