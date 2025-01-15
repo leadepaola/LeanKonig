@@ -53,7 +53,7 @@
 		height: 100vh;
 
 		object-fit: cover;
-		filter: blur(1px)!important;
+		/*filter: blur(1px)!important;*/
 		
 	}
 
@@ -62,11 +62,11 @@
 		width: 100%;
 		height: 120%;
 
-		background-color: white;
-		opacity: 0.4;
+		background-color: #ffffff26;
+		/*opacity: 0.4;*/
 
 		position: fixed;
-		
+		backdrop-filter: blur(5px);
 	}
 
 
@@ -76,7 +76,7 @@
 		width: 86%;
 	    height: 86%;
 	    top: 14%;
-	    background-color: white;
+	    /*background-color: white;*/
 
 	    border-radius: 20px 20px 0px 0px;
 
@@ -89,10 +89,10 @@
 
 	.pr_content_secundario_img_fondo{
 		width: 100%;
-		height: 100vh;
+		height: 80vh;
 
 		object-fit: cover;
-		border-radius: 20px 20px 0px 0px;
+		border-radius: 20px;
 	}
 
 
@@ -136,15 +136,15 @@
 		position: absolute;
 
 		width: 100%;
-		height: 55%;
-		top: 45%;
+		height: 355px;
+		top: 355px;
 
 		/*background-color: red;*/
 
 		display: flex;
 		justify-content: center;
 
-		padding-top: 25%;
+		padding-top: 55px;
 	}
 
 	.pr_link{
@@ -185,6 +185,8 @@
 				margin-left: 14%;
 
 				border-radius: 5px;
+
+				z-index: 3;
 			}
 
 			.pr_link_texto{
