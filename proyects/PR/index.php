@@ -32,7 +32,7 @@
 		//$routs="./"; //borrar en server
 		include('routs/head.php');
 	?>
-
+	<meta name=”theme-color” content=”black” />
 </head>
 
 
