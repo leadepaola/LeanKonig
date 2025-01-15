@@ -8,10 +8,10 @@
 
 
 .pr_cotent_links{
-	height: 475px;
+	height: -webkit-fill-available;
 	top: 200px;
 
 	padding-bottom: 25px;
-	
+
 	overflow: scroll;
 }
