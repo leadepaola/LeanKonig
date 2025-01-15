@@ -74,7 +74,7 @@
 		position: fixed;
 
 		width: 86%;
-	    height: 86%;
+	    height: 80vh;
 	    top: 14%;
 	    /*background-color: white;*/
 
