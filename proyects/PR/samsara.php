@@ -44,6 +44,14 @@
 	<!-- Contenedor General -->
 	<div class="pr_content_general" >
 
+
+		<!-- Boton volver -->
+		<a class="pr_btn_volver" href="javascript:history.back(-1);">
+			<img src="./images/icon/flecha-izquierda.png">
+		</a>
+
+
+
 		<!-- Imagen fondo -->
 		<img class="pr_content_general_img_fondo" src="./images/samsara2.jpg"> 
 		<div class="pr_conent_general_filtro"></div>
@@ -69,6 +77,7 @@
 			<!-- Contendor general de links -->
 			<div class="pr_cotent_links">
 				
+				<!-- Link -->
 				<a class="pr_link" href="">
 					<div class="pr_link_transparencia"></div>				
 
@@ -77,12 +86,59 @@
 					<div class="pr_link_texto">Jueves 16.01</div>	
 				</a>
 
+
+				<!-- Link -->
 				<a class="pr_link" href="">
 					<div class="pr_link_transparencia"></div>				
 
 					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
 
 					<div class="pr_link_texto">Viernes 17.01</div>	
+				</a>
+
+				<!-- Link -->
+				<a class="pr_link" href="">
+					<div class="pr_link_transparencia"></div>				
+
+					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
+
+					<div class="pr_link_texto">Sábado 18.01</div>	
+				</a>
+
+				<!-- Link -->
+				<a class="pr_link" href="">
+					<div class="pr_link_transparencia"></div>				
+
+					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
+
+					<div class="pr_link_texto">Domingo 19.01</div>	
+				</a>
+
+				<!-- Link -->
+				<a class="pr_link" href="">
+					<div class="pr_link_transparencia"></div>				
+
+					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
+
+					<div class="pr_link_texto">Lunes 20.01</div>	
+				</a>
+
+				<!-- Link -->
+				<a class="pr_link" href="">
+					<div class="pr_link_transparencia"></div>				
+
+					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
+
+					<div class="pr_link_texto">Martes 21.01</div>	
+				</a>
+
+				<!-- Link -->
+				<a class="pr_link" href="">
+					<div class="pr_link_transparencia"></div>				
+
+					<img class="pr_link_logo" src="./images/samsara_logo.jpeg"></img>
+
+					<div class="pr_link_texto">Miércoles 22.01</div>	
 				</a>
 
 
