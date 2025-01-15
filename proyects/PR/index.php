@@ -39,12 +39,7 @@
 
 <body >
 
-	<?php 
 	
-		//include('./lib/base/css/style.php');
-
-
-	?>
 
 	<!-- Contenedor General -->
 	<div class="pr_content_general" >
