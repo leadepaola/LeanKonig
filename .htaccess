@@ -38,3 +38,8 @@ RewriteEngine on
 RewriteRule ^pr$ ./index.php?index_var=PR [L]
 RewriteEngine on
 RewriteRule ^PR$ ./index.php?index_var=PR [L]
+
+RewriteEngine on
+RewriteRule ^updata$ ./index.php?index_var=PR/DATA [L]
+RewriteEngine on
+RewriteRule ^UPDATA$ ./index.php?index_var=PR/DATA [L]

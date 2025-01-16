@@ -41,6 +41,11 @@ switch ($index_var) {
 		
 	break;
 
+	case 'PR/DATA':
+		//header("location: ./proyects/PR/index.php");
+		header("location: ./proyects/PR/cpanel/up_data.php");
+	break;
+
 	default:
 		//header("location: index.php");
 	break;
