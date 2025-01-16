@@ -8,7 +8,7 @@
 <script  src="<?php echo $routs; ?>lib/jquery/jquery-3.5.1.min.js"></script>
 
 <!-- Js 						-->
-<script  src="<?php echo $routs; ?>lib/base/js/index.js?2025_1_16_0608"></script>
+<script  src="<?php echo $routs; ?>lib/base/js/up_data.js?2021_5_26_0638"></script>
 
 
 
@@ -22,8 +22,8 @@
 	// js
 	switch ($view_activa) {
 		
-		case '1':
-			
+		case '404':
+
 		break;
 		
 		

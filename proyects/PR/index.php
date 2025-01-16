@@ -2,11 +2,9 @@
 
 <?php 
 
-	//echo "404 <br />";
-
-
-	//include('./server_local/google_analytics.php');
-
+	include('./server_local/conection_DB.php');
+	include('./server_local/fecha_y_hora.php');
+	
 	//dispositivo_de_ingreso
 	include('php/canal.php');
 

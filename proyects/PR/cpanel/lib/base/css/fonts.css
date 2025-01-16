@@ -1,0 +1,47 @@
+
+/*Roboto Google Font*/
+
+@font-face {
+	font-family: "roboto-100";
+	src: url("../../fonts/roboto-googlefont/Roboto-Thin.ttf");
+}
+
+@font-face {
+	font-family: "roboto-300";
+	src: url("../../fonts/roboto-googlefont/Roboto-Light.ttf");
+}
+
+@font-face {
+	font-family: "roboto-300i";
+	src: url("../../fonts/roboto-googlefont/Roboto-LightItalic.ttf");
+}
+
+@font-face {
+	font-family: "roboto-400";
+	src: url("../../fonts/roboto-googlefont/Roboto-Regular.ttf");
+}
+
+@font-face {
+	font-family: "roboto-400i";
+	src: url("../../fonts/roboto-googlefont/Roboto-Italic.ttf");
+}
+
+@font-face {
+	font-family: "roboto-500";
+	src: url("../../fonts/roboto-googlefont/Roboto-Medium.ttf");
+}
+
+@font-face {
+	font-family: "roboto-500i";
+	src: url("../../fonts/roboto-googlefont/Roboto-MediumItalic.ttf");
+}
+
+@font-face {
+	font-family: "roboto-700";
+	src: url("../../fonts/roboto-googlefont/Roboto-Bold.ttf");
+}
+
+@font-face {
+	font-family: "roboto-700i";
+	src: url("../../fonts/roboto-googlefont/Roboto-BoldItalic.ttf");
+}
