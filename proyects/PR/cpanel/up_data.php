@@ -55,7 +55,7 @@
 
 				<!-- Contenedor 2do input Whatsapp -->
 				<div class="input-field">
-					<input id="numero_wsp"   type="number" class="validate">
+					<input id="numero_wsp"   type="tel" class="validate">
 					<label for="numero_wsp" class="active">Whatsapp</label>
 				</div>
 
