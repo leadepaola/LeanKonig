@@ -54,9 +54,7 @@ body{
 
 }
 
-.btn:hover,  {
-    background-color: blue!important;
-}
+
 
 
 
@@ -77,7 +75,13 @@ body{
 
 
 
+.pr_cpanel_btn_refres{
+	margin-top: 40px;
 
+	background-color: black;
+
+	display: none;
+}
 
 
 

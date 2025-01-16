@@ -95,6 +95,10 @@
 		      </div>
 		    </div>
 		</div>
+
+		<div class="btn pr_cpanel_btn_refres" onclick="window.location.reload();">
+			<div class="pr_cpanel_btn_refres_txt">Recargar página</div>
+		</div>
 	
 	</div>
 
