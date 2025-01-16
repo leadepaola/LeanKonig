@@ -55,13 +55,13 @@
 
 				<!-- Contenedor 2do input Whatsapp -->
 				<div class="input-field">
-					<input id="numero_wsp"   type="text" class="validate">
+					<input id="numero_wsp"   type="number" class="validate">
 					<label for="numero_wsp" class="active">Whatsapp</label>
 				</div>
 
 				<!-- Contenedor 3er input Cantidad de personas -->
 				<div class="input-field">
-					<input id="cantidad_d_personas"   type="text" class="validate">
+					<input id="cantidad_d_personas"   type="number" class="validate">
 					<label for="cantidad_d_personas" class="active">Cantidad de personas</label>
 				</div>
 
