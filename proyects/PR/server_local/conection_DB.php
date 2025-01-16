@@ -1,18 +1,18 @@
 <?php 
 
 /*Coneccion a base de datos a traves de PDO - barrera para inpedir inyeccion sql*/
-/*
-$servername = "localhost";
-$database = "u819270705_lowcostweb"; 
-$username = "u819270705_leandro";
-$password = "79TeX[*;B]q3H&3!";
-*/
 
+$servername = "localhost";
+$database = "u819270705_leankonig"; 
+$username = "u819270705_leankonig";
+$password = "MlG4Ca=g4^q";
+
+/*
 $servername = "127.0.0.1";
 $database = "leankonig"; 
 $username = "root";
 $password = "";
-
+*/
 
 
 
