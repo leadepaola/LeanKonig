@@ -190,11 +190,10 @@ function enviar_msj_Cpanel(){
 
             setTimeout(function(){  
               $('.pr_cpanel_cont_preloader').css("background-color", "white");  
-              
               $('.preloader-wrapper').css("display", "none");  
               $('.pr_cpanel_btn_refres').css("display", "inline-block");  
 
-              //window.location.href = 'https://wa.me/549'+id_numero_wsp+'?text=Hola '+id_name+', soy%20Leandro%20de%20Samsara%20Beach%20y%20Sonora%20Park.%0A%0AEn%20el%20link%20est%C3%A1n%20todas%20las%20fechas%20para%20comprar%20las%20entradas.%20Cualquier%20consulta%20hablame%21%0A%0Aleankonig.com.ar/PR%20';
+              window.location.href = 'https://wa.me/549'+id_numero_wsp+'?text=Hola '+id_name+', soy%20Leandro%20de%20Samsara%20Beach%20y%20Sonora%20Park.%0A%0AEn%20el%20link%20est%C3%A1n%20todas%20las%20fechas%20para%20comprar%20las%20entradas.%20Cualquier%20consulta%20hablame%21%0A%0Aleankonig.com.ar/PR%20';
             },1500);          
 
           }
