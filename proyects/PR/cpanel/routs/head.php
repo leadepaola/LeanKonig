@@ -16,14 +16,14 @@
 <link rel="stylesheet" href="<?php echo $routs; ?>lib/icons/bigmug_and_slim/icon.css">
 
 <!-- 	materealize 				-->
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize.css?2025_1_16_0656">
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize_control.css?2025_1_16_0656">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize.css?2025_1_16_0744">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize_control.css?2025_1_16_0744">
 
 <!-- 	fonts 						-->
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/fonts.css?2025_1_16_0656">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/fonts.css?2025_1_16_0744">
 
 <!-- 	css 						-->
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/cpanel.css?2025_1_16_0656">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/cpanel.css?2025_1_16_0744">
 
 
 <!--	Google fonts				-->
@@ -45,17 +45,17 @@
 		
 		//up_data
 		case '1':
-			//echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/samsara.css?2025_1_16_0656">';
+			//echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/samsara.css?2025_1_16_0744">';
 		break;
 
 		//
 		case '2':
-			//echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/samsara.css?2025_1_16_0656">';
+			//echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/samsara.css?2025_1_16_0744">';
 		break;
 
 		//
 		case '3':
-			//echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/samsara.css?2025_1_16_0656">';
+			//echo '	<link rel="stylesheet" href="'.$routs.'lib/base/css/samsara.css?2025_1_16_0744">';
 		break;
 	}
 
