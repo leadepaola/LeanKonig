@@ -1,7 +1,7 @@
 <?php 
 
 
-echo "Hola 2 <br />";
+//echo "Hola 2 <br />";
 
 
 //echo "$_GET['index_var']";
@@ -9,7 +9,8 @@ echo "Hola 2 <br />";
 	
 if(empty($_GET['index_var'])){
 
-	$index_var = 'inicio';
+	//$index_var = 'inicio';
+	header("location: ./proyects/PR/index.php");
 	
 }else{
 
