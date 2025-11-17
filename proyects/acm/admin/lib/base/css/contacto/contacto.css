@@ -1,0 +1,130 @@
+
+
+
+
+
+
+
+
+
+#contacto_filas_general_cont{
+	margin-bottom: 150px;
+}
+
+.index_tit_lista{
+	margin-bottom: 15px;
+}
+
+
+.input-field {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+/*Icon*/
+.index_item_icon_cont{
+	height: 40px;
+}
+/* Si es menor a */
+@media (max-width: 600px){
+	.index_item_icon_cont{
+		justify-content: flex-start;
+	}
+}
+
+
+/*INPUT EDIT*/
+
+.contacto_input_cont{
+	/*margin-top: 8px;*/
+	
+	display: flex;
+	align-items: center;
+
+	font-size: 22px;
+
+	border-bottom: 1px solid whitesmoke;
+}
+
+
+.contacto_input{
+	/*height: 55px;*/
+	border-bottom: 0px!important;
+	margin-bottom: 0px!important;
+
+	font-size: 12px!important;
+    color: #777777!important;
+
+    transition: 0s!important;
+}
+
+.contacto_input:hover{
+    background: #f9f9f9!important;
+}
+.contacto_input:focus{
+	background: #f5f5f5!important;
+	border-bottom: 0px solid !important;
+}
+
+
+
+/* Cuando le hace focus al input*/
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+	 border-bottom: 0px!important;
+	-webkit-box-shadow: 0 0 0 0;
+    		box-shadow: 0 0 0 0;
+}
+
+
+
+
+
+
+/*FILA BOTON ACTUALIZAR*/
+.index_cont_lista {
+    border-bottom: 0px;
+}
+.index_cont_lista:hover{
+	background-color: white;
+}
+
+
+.index_item_lista {
+    align-items: center;
+    justify-content: center;
+}
+.index_item_lista:hover{
+	background-color: white;
+	cursor: pointer;
+	color: black;
+	font-size: 13px;
+}
+/* Si es menor a */
+@media (max-width: 600px){
+	.index_item_lista{
+		font-size: 11px;
+		cursor: default;
+	}
+	.index_item_switch{
+	    padding-top: 11px!important;
+	}
+}
+
+
+
+/*SWITCH*/
+.index_item_switch{
+	padding-top: 0px!important;
+}

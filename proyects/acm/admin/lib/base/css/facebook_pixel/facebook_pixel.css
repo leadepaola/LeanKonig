@@ -1,0 +1,171 @@
+
+
+
+
+
+.mapa_general_cont{
+	margin: auto;
+}
+
+
+
+
+
+#mapa_titulo_switch_cont{
+	display: flex;
+	align-items: center;	
+}
+
+
+.mapa_recuadro_cont{
+	width: 100%;
+	height: 270px;
+
+	margin: 50px auto 0px auto;
+
+	background-color: white;
+
+	border-radius: 5px;
+
+    -webkit-box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 		0px 0px 11px 1px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.mapa_recuadro_cont > iframe {
+    width: 100%!important;
+    height: 270px!important;
+    margin: auto;
+}
+
+iframe{
+	height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mapa_btn_accion_cont{
+	margin: 0px auto 0px auto;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+#facebook_pixel_cont_btn_2{
+	margin: 0px auto 70px auto;
+}
+
+.index_btn_accion{
+	width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Textarea*/
+
+.mapa_textarea_cont{
+	margin: auto;
+	min-height: 350px;
+}
+.mapa_textarea{
+	height: auto;
+	border: 1px solid white;
+
+	font-family: "segoe-ui-semibold";
+    
+}
+
+textarea:focus {
+	background: #f7f7f7;
+	outline: 0 none;
+}
+
+
+#mapa_textarea_tit{
+	font-size: 13px;
+    color: #484848;	
+
+	max-height: 400px;
+    min-height: 350px;
+    max-width: 100%;
+    min-width: 100%;
+
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+/* Si es menor a */
+@media (max-width: 600px){
+	#mapa_textarea_tit{
+		font-size: 13px;
+		max-height: 350px;
+	    min-height: 350px;
+	}
+}
+
+
+
+
+
+.face_pixel_text_area_meta_dom_cont{
+	margin: auto;
+	min-height: 40px;
+}
+
+#face_pixel_text_area_meta_dom{
+	font-size: 13px;
+    color: #484848;	
+
+	max-height: 130px;
+    min-height: 40px;
+    max-width: 100%;
+    min-width: 100%;
+
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+/* Si es menor a */
+@media (max-width: 600px){
+	#face_pixel_text_area_meta_dom{
+		font-size: 13px;
+		max-height: 90px;
+	    min-height: 90px;
+	}
+}
+
+
+
+
+
+
+/* Si es menor a */
+@media (max-width: 600px){
+	#face_pixel_tit_1{
+		margin-top: 0;
+		font-size: 14px;
+	}
+}
+

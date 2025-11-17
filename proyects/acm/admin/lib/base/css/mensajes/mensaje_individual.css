@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+
+
+
+/*
+#    # ###### #    #  ####    ##        # ###### 
+##  ## #      ##   # #       #  #       # #      
+# ## # #####  # #  #  ####  #    #      # #####  
+#    # #      #  # #      # ######      # #      
+#    # #      #   ## #    # #    # #    # #      
+#    # ###### #    #  ####  #    #  ####  ###### 
+
+# #    # #####  # #    # # #####  #    #   ##   #      
+# ##   # #    # # #    # # #    # #    #  #  #  #      
+# # #  # #    # # #    # # #    # #    # #    # #      
+# #  # # #    # # #    # # #    # #    # ###### #      
+# #   ## #    # #  #  #  # #    # #    # #    # #      
+# #    # #####  #   ##   # #####   ####  #    # ###### 
+*/
+
+
+.msj_indi_cont_lista{
+	border-bottom: 0px;
+	cursor: default;
+	margin-bottom: 300px;
+}
+
+#msj_indi_cont_lista{
+	height: auto;
+    margin-top: 11px;
+}
+#msj_indi_cont_lista:hover{
+	background-color: white;
+}
+#msj_item_lista{
+    align-items: flex-start;
+}
+#msj_item_icon_cont{
+	min-width: 30px;
+}
+
+
+
+
+
+.msj_hora_fecha_disp_pc{
+
+}
+.msj_hora_fecha_disp_mob{
+	display: none;
+}
+
+
+
+.index_tit_lista {
+    margin-top: 81px;
+}
+
+/* Si es menor a */
+@media (max-width: 600px){
+	.index_item_lista{
+		font-size: 13px;
+	}
+	.index_iteam_icon_img{
+		width: 12px;
+	}
+	.msj_item_txt{
+	/*	margin-top: 3px;*/
+	}
+	.index_cont_lista{
+		cursor: default;
+	}
+	.msj_hora_fecha_disp_pc{
+		display: none;
+	}
+	.msj_hora_fecha_disp_mob{
+		display: flex;
+	}
+	.index_tit_lista {
+	    margin-top: 103px;
+	}
+
+}
+
+
+
+
+/* Si es mayor a */
+@media (min-width: 600px){
+	.index_cont_lista:hover{
+		background-color: white;
+	}
+}
+
+

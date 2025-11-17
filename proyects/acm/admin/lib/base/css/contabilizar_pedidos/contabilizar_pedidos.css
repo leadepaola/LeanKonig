@@ -1,0 +1,140 @@
+
+
+
+/*PARTES INDIVIDUALES*/
+
+
+#lista_parte_datos:hover #list_p_fecha{
+	background-color: #f5f5f595;
+}
+
+#lista_parte_datos:hover #list_p_hora{
+	background-color: #f5f5f595;
+}
+
+
+
+#list_p_fecha, #list_p_hora{
+	padding-left: 10px;
+	/*color: #696969;*/
+	justify-content: flex-end;
+
+	font-family: "segoe-ui-semibold";
+	color: #272727;
+}
+
+.view_indi_radio_cancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view_indi_radio_cancel > [type="radio"]:checked + label:after, [type="radio"].with-gap:checked + label:before, [type="radio"].with-gap:checked + label:after {
+    border: 2px solid var(--main-color_principal);
+}
+
+.view_indi_radio_cancel > [type="radio"]:checked + label:after, [type="radio"].with-gap:checked + label:after {
+    background-color: var(--main-color_principal);
+}
+
+[type="checkbox"]:checked + label:before {
+    border-right: 2px solid var(--main-color_principal);
+    border-bottom: 2px solid var(--main-color_principal);
+}
+
+[type="checkbox"] + label:before, [type="checkbox"]:not(.filled-in) + label:after {
+    width: 23px;
+    height: 23px;
+    border: 2px solid #afafaf;
+}
+
+
+
+#lista_parte_datos {
+    cursor: default;
+}
+
+
+
+
+/*Boton de accion*/
+
+.met_contabil_btn_accion_cont {
+	position: relative;
+    margin: 65px auto 90px auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#met_contabil_submit{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* Si es menor a */
+@media (max-width: 600px){
+	#list_p_fecha{
+		display: none;
+	}
+	#list_p_hora{
+		display: none;
+	}	
+	#list_p_direccion {
+	    font-size: 11px;
+	}
+	#list_p_name_user{
+		display: flex;
+		font-size: 11px;
+	}
+	#list_p_item{
+		display: none;
+	}
+	/*
+	#list_p_precio_tot{
+		display: flex;
+	}*/
+	#list_p_fecha{
+	    display: none;
+	}
+
+}
+
+/* Si es menor a */
+@media (max-width: 992px){
+	#list_p_id_pedido {
+		display: none;
+	}
+	#list_p_item{
+		/*display: none;*/
+	}
+	#list_p_precio_tot {
+	    justify-content: center;
+	}
+	#list_p_fecha{
+	    justify-content: flex-start;
+	}
+	#list_p_hora{
+	    justify-content: flex-start;
+	}
+}
+
+
+/* Si es menor a */
+@media (max-width: 1150px){
+	.pedidos_gral_productos_cont {
+		font-size: 11px;
+	}
+}

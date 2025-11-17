@@ -1,0 +1,218 @@
+
+
+
+/*IMAGEN PRINCIPAL*/
+
+.img_principal_general_cont{
+	display: flex;
+	justify-content: center;
+}
+
+.prod_indi_edit_item_lista_img_cont{
+	position: relative;
+
+	height: 222px;
+	border: 1px solid white;
+}
+
+.prod_indi_edit_item_lista_img_cont:hover{
+	border: 1px solid #b5b5b5;
+}
+
+
+
+#img_principal_cont{
+	display: flex;
+	justify-content: center;
+	height: 222px;
+}
+
+
+
+
+
+
+
+/*SECUNDARIA*/
+#img_sec_gral_cont{
+	position: relative;
+
+	border: 1px solid white;
+
+	width: 80px;
+	height: 80px;
+
+	margin: auto;
+}
+
+#img_sec_gral_cont:hover{
+	border: 1px solid #b5b5b5;
+}
+
+
+.img_sec_gral_cont_2{
+	width: 80px!important;
+	height: 80px;	
+}
+
+
+.index_form_invi_btn_cargar_img_cont{
+	background: aqua;
+    opacity: 0;
+    max-width: 220px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.transition{
+	-webkit-transition: all 0s ease-in-out;
+    		transition: all 0s ease-in-out;
+}
+
+#prod_indi_add_tipo_unidad_cont  > .nice-select{
+	height: 30px;
+	border-bottom: 0px;
+
+	display: flex;
+	align-items: center;
+
+	border-bottom: 1px solid white;
+}
+
+#prod_indi_add_tipo_unidad_num{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+
+	height: 30px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Precio*/
+
+#index_input_editlea{
+	color: #5a5a5a;
+	font-size: 23px;
+	border-bottom: 1px solid white;
+
+}
+
+.tach{
+	font-size: 17px;
+    text-decoration: line-through;
+    color: #9a9a9a!important;
+}
+
+
+
+/*dimensiones*/
+.index_dimension_recomend{
+	max-width: 220px;
+}
+
+
+
+
+
+
+
+
+/*Precio tachado*/
+#prod_indi_edit_precio_tach_cont{
+	margin-top: 8px;
+	
+	display: flex;
+	align-items: center;
+
+	font-family: "segoe-ui";
+    font-size: 12.5px;
+    color: #6f6f6f;
+
+	text-decoration: line-through;
+    color: #9a9a9a!important;
+}
+
+
+#prod_indi_edit_precio_tach{
+	/*height: 55px;*/
+	border-bottom: 0px;
+	margin-bottom: 0px;
+/*
+	font-size: 17px;
+    color: #9a9a9a;
+*/
+    transition: 0s!important;
+
+    border-bottom: 1px solid white;
+}
+
+#prod_indi_edit_precio_tach:hover{
+    background: #f9f9f9;
+}
+#prod_indi_edit_precio_tach:focus{
+	background: #f5f5f5;
+	border-bottom: 1px solid whitesmoke!important;
+}
+
+
+/*TXT OFF*/
+#prod_indi_edit_txt_OFF_cont{
+	margin-top: 1px;
+	
+	display: flex;
+	align-items: center;
+
+	font-family: "segoe-ui";
+    font-size: 12.5px;
+    color: #6f6f6f;
+
+    }
+
+
+#prod_indi_edit_txt_OFF{
+	/*height: 55px;*/
+	border-bottom: 0px;
+	margin-bottom: 0px;
+/*
+	font-family: "segoe-ui";
+    font-size: 12.5px;
+    color: #6f6f6f;
+*/
+    transition: 0s!important;
+
+    border-bottom: 1px solid white;
+}
+
+#prod_indi_edit_txt_OFF:hover{
+    background: #f9f9f9;
+}
+#prod_indi_edit_txt_OFF:focus{
+	background: #f5f5f5;
+	border-bottom: 1px solid whitesmoke!important;
+}

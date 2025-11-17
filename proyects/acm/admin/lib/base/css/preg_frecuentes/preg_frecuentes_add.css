@@ -1,0 +1,24 @@
+
+
+ 
+/* Si es menor a */
+@media (max-width: 600px){
+	.work_titulo{
+		font-size: 30px;
+	}
+}
+
+
+#preg_frec_add_gral_cont{
+	margin: 75px auto 150px auto;
+}
+
+#preg_frec_add_input_respuesta{
+	margin-top: 60px;
+}
+
+.preg_frec_add_btn_cont{
+	margin-top: 100px;
+}
+
+

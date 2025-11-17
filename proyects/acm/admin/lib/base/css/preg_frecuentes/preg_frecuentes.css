@@ -1,0 +1,71 @@
+
+
+
+
+
+/* Si es menor a */
+@media (max-width: 600px){
+	.work_titulo{
+		font-size: 30px;
+	}
+	#preg_frec_lista_pregs_cont{
+		cursor: default!important;
+	}
+}
+
+
+
+.index_filas_cont{
+	margin: 0px auto 0px auto;
+}
+
+
+/*SECCION 1*/
+/*Agregar nueva pregunta frecuente*/
+
+.input-field {
+    margin-top: 0px;
+}
+
+#nueva_categoria{
+	margin-bottom: 0px;
+}
+
+#index_item_img_add_cont{
+    border-bottom: 0px;
+}
+#index_item_img_add_cont:hover{
+	background-color: white;
+}
+
+.index_item_img_add:hover{
+	width: 30px;
+}
+
+
+
+
+
+
+
+/*SECCION 2*/
+/*Lista de preguntas frecuentes */
+
+.index_tit_lista{
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+#preg_frec_lista_pregs_cont{
+	margin: 55px auto 150px auto;
+	cursor: pointer;
+}
+
+
+/* Si es menor a */
+@media (max-width: 600px){
+	.index_filas_cont{
+		cursor: default;
+	}
+}
+

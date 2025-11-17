@@ -1,0 +1,84 @@
+
+
+#descuento_titulo_switch_cont{
+    display: flex;
+    align-items: center;
+}
+
+
+.descuento_fila_cont{
+	/*height: 130px;*/
+	display: flex;
+	align-items: flex-end;
+
+	/*margin-top: 55px;*/
+}
+
+
+
+
+
+
+
+
+/*Boton de accion*/
+
+.descuento_btn_accion_cont{
+	max-width: 400px;
+
+	margin: 140px auto 70px auto;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+.index_btn_accion{
+	width: 150px;
+}
+
+
+.input-field{
+	margin-top: 50px;
+	display: flex;
+	align-items: center;	
+}
+
+
+
+
+#descuento_filas_cont{
+	max-width: 400px;
+}
+
+.index_tit_lista{
+	margin-top: 75px;
+}
+
+
+/* Si es menor a */
+@media (max-width: 600px){
+	.work_titulo {
+	    font-size: 35px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+/*INPUT*/
+
+#index_input_editlea{
+	font-size: 18px;
+}
+
+#descuento_signo_porcentaje{
+	width: 15px;
+	font-size: 14px;
+}

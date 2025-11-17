@@ -1,0 +1,114 @@
+
+
+.index_filas_cont{
+	max-width: 400px;
+}
+
+
+.color_prin_fila_cont{
+	height: 130px;
+	display: flex;
+	align-items: flex-end;
+
+	margin-top: 55px;
+}
+
+
+.color_prin_cuadrado_cont{
+	height: 130px;
+	/*background-color: black;*/
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+
+.color_prin_cuadrado{
+	width: 100px;
+	height: 100px;
+
+	border-radius: 5px;
+
+
+	-webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.54);
+    box-shadow: 		0px 2px 6px 0px rgba(0, 0, 0, 0.54);
+
+
+
+	background-color: var(--main-color_principal);
+
+
+}
+
+
+
+/*Boton de accion*/
+
+.color_prin_btn_accion_cont{
+	max-width: 400px;
+	margin: 150px auto 70px auto;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+.index_btn_accion{
+	width: 150px;
+}
+
+
+
+
+/*INPUT*/
+
+#index_input_editlea_cont{
+	margin-left: 0;
+}
+
+#index_input_editlea{
+	font-size: 18px;
+}
+
+
+/*Link a color hexa*/
+#color_prin_link_colorHexa{
+	font-family: "roboto-400";
+   	font-size: 12px;
+    color: #969696;	
+
+    cursor: pointer;
+}
+
+#color_prin_link_colorHexa:hover{
+	color: black;
+}
+
+/* Si es menor a */
+@media (max-width: 600px){
+	.color_prin_link_colorHexa{
+		cursor: default;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

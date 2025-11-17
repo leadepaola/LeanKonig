@@ -1,0 +1,91 @@
+
+
+
+
+#costo_envio_fila_gral_cont{
+	margin-bottom: 150px;
+}
+
+
+
+.input-field {
+    margin-top: 0px;
+}
+/* Si es menor a */
+@media (max-width: 600px){
+	.input-field {
+	    margin-top: 0px;
+	}
+	#cost_envio_txt_zona_entrega{
+		font-size: 11px;
+	}
+}
+
+.input-field > input {
+	margin-bottom: 0px!important;
+}
+
+
+.index_cont_lista{
+	border-bottom: 0px;
+}
+.index_cont_lista:hover{
+	background-color: white;
+}
+
+
+.index_item_lista{
+	align-items: center;
+	justify-content: center;
+}
+.index_item_lista:hover{
+	background-color: white;
+	cursor: pointer;
+	color: black;
+	font-size: 13px;
+}
+/* Si es menor a */
+@media (max-width: 600px){
+	.index_item_lista{
+		font-size: 11px;
+		cursor: default;
+	}
+	.index_item_switch{
+	    padding-top: 11px!important;
+	}
+}
+
+.index_filas_cont{
+	margin: 0px auto 0px auto;
+}
+
+
+.index_item_img_add:hover{
+	width: 30px;
+}
+
+
+
+
+.index_tit_lista {
+	margin-top: 55px;
+    margin-bottom: 13px;
+}
+
+
+
+
+.costo_envio_fila_cont{
+	margin-top: 17px;
+}
+
+
+.font_size_15{
+	font-size: 15px!important;
+	color: #ababab!important;
+} 
+
+
+.signo_peso_cont{
+	margin-right: 6px;
+}

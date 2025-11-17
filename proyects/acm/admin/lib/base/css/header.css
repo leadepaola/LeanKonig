@@ -1,0 +1,363 @@
+
+:root{
+	--main-header_height: 73px;
+	/*	var(--main-header_height);	*/
+}
+
+
+
+
+
+
+
+
+
+/*
+#     # #######    #    ######  ####### ######  
+#     # #         # #   #     # #       #     # 
+#     # #        #   #  #     # #       #     # 
+####### #####   #     # #     # #####   ######  
+#     # #       ####### #     # #       #   #   
+#     # #       #     # #     # #       #    #  
+#     # ####### #     # ######  ####### #     # 
+*/
+
+.header{
+	position: relative;
+
+	width: 100%;
+    height: var(--main-header_height);
+        
+    /*border-bottom: 1px solid black;*/
+
+	/* background-color: black; */
+
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Si es mayor a */
+@media (min-width: 950px){
+	.header{
+		display: none;		
+	}
+}
+
+
+
+.cpanel_header_mob{
+	display: flex;
+	align-items: center;
+}
+
+
+
+
+/*
+#       ####   ####   ####  
+#      #    # #    # #    # 
+#      #    # #      #    # 
+#      #    # #  ### #    # 
+#      #    # #    # #    # 
+######  ####   ####   ####  
+*/
+
+.header_cont_logo{
+	height: var(--main-header_height);
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+
+}
+
+#header_a_logo{
+	height: 95%;
+	cursor: pointer;
+}
+
+#header_img_logo{
+	height: 100%;
+}
+
+
+
+
+
+
+/*
+#    # ###### #    # #    # 
+##  ## #      ##   # #    # 
+# ## # #####  # #  # #    # 
+#    # #      #  # # #    # 
+#    # #      #   ## #    # 
+#    # ###### #    #  ####  
+*/
+
+.header_cont_menu{
+	position: relative;
+	height: 40px;
+	top: 10px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header_cont_letra_menu{
+	padding: 0px 7px 0px 0px; 
+}
+.header_letras_menu{
+	height: 50%;
+   	
+   	margin: 0;
+
+    font-family: "roboto-400";
+    font-size: 14px;
+
+    cursor: pointer;
+
+    color: black;
+}
+.header_letras_inactive:hover {
+	/*font-family: "roboto-500";*/
+	font-weight: 600;
+	color: var(--main-color_principal);
+}
+
+.header_letras_active{
+	font-weight: 600;
+	color: var(--main-color_principal);
+}
+
+
+
+/*BURGER MENU*/
+.header_cont_burger_menu{
+	display: none;
+
+	height: var(--main-header_height);
+
+	align-items: center;
+	justify-content: flex-start;
+}
+
+#burger_menu{
+	position: relative;
+	z-index: 980;
+	
+	height: 30px;
+	width: 23px;
+}
+
+/* Si es menor a */
+@media (max-width: 950px){
+	.header_cont_logo{
+		justify-content: center;
+	}
+	.header_cont_menu{
+		display: none;
+	}
+	.header_cont_burger_menu{
+		display: flex;
+	}
+	#burger_menu {
+	    height: 57px;
+	    min-width: 28px;
+	}
+}
+
+
+
+.haeder_sidenav_active{
+	color: var(--main-color_principal)!important;
+}
+
+
+
+
+/*
+ ####    ##   #####  #####  # #####  ####  
+#    #  #  #  #    # #    # #   #   #    # 
+#      #    # #    # #    # #   #   #    # 
+#      ###### #####  #####  #   #   #    # 
+#    # #    # #   #  #   #  #   #   #    # 
+ ####  #    # #    # #    # #   #    ####  
+*/
+
+
+.header_cont_carrito{
+	position: relative;
+	height: 40px;
+
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.header_cont_items_carrito{
+	display: flex;
+	align-items: center;
+}
+.header_letras_carrito{
+	height: 100%;
+   	
+   	margin: 0;
+
+    font-family: "roboto-400";
+    font-size: 12px;
+
+    cursor: pointer;
+    color: #5f5f5f;
+}
+
+#header_precio{
+	padding-right: 9px;
+	cursor: pointer;
+	position: relative;
+    top: 2px;
+}
+
+#header_precio:hover {
+	font-weight: 600;
+	color: black;
+}
+/* Si es menor a */
+@media (max-width: 600px){
+	#header_precio{
+		cursor: default;
+	}
+}
+
+
+#icon_shop{
+	font-size: 18px;
+	cursor: pointer;
+
+	position: relative;
+	color: black;
+}
+
+#header_carrito_cant_prod{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: -3px;
+    left: 6px;
+    border-radius: 10px;
+    background-color: var(--main-color_principal);
+    display: none;/*flex - none*/
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+   	-webkit-box-shadow: 1px 1px 4px -1px;
+	box-shadow: 		1px 1px 4px -1px;
+}
+
+#header_carrito_num_prods{
+	font-size: 11px;
+    color: white;
+    margin: 0;
+    font-family: "roboto-400";
+}
+
+/* Si es menor a */
+@media (max-width: 600px){
+	:root{
+		--main-header_height: 73px;
+	}
+
+	#header_precio{
+		/*display: none;*/
+	}
+	#icon_shop{
+		font-size: 24px;
+	}
+	.header_cont_carrito{
+		height: var(--main-header_height);
+		top: 0px;
+		align-items: center;
+	}
+	#header_carrito_cant_prod{
+		width: 19px;
+	    height: 19px;
+	}
+	#header_carrito_num_prods{
+		font-size: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#probando{
+	position: absolute;
+
+	width: 50px;
+	height: 50px;
+	top: 0px;
+	left: 100%;
+
+	background-color: red;
+
+}
+
+
+
+
+
+
+
+/*
+#   #  ####  #    # ##### #    # #####  ###### 
+ # #  #    # #    #   #   #    # #    # #      
+  #   #    # #    #   #   #    # #####  #####  
+  #   #    # #    #   #   #    # #    # #      
+  #   #    # #    #   #   #    # #    # #      
+  #    ####   ####    #    ####  #####  ###### 
+*/
+
+#img_youtube{
+	width: 35px;
+	cursor: pointer;
+}
+
+/* Si es menor a */
+@media (max-width: 600px){
+	#img_youtube{
+		cursor: default;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

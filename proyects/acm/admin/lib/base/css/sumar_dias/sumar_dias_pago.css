@@ -1,0 +1,263 @@
+
+.padding_left_5{
+	padding-left: 5px!important;
+}
+.max_w_500{
+	max-width: 500px;
+}
+.restaltado_descuento{
+	color: #444444;
+    margin-right: 4px;
+    font-weight: 500;
+}
+
+
+
+
+.index_filas_cont{
+	margin-bottom: 150px;
+}
+
+
+/*FILAS*/
+
+.index_cont_lista{
+	height: auto;
+	border-bottom: 0px;
+	margin-top: 30px;
+	cursor: default;
+}
+.index_cont_lista:hover{
+	background-color: white;
+}
+
+
+
+
+
+/*Sector 1*/
+#sumar_dias_fila_sector_1_cont{
+	height: 38px;
+	margin-bottom: 10px;
+}
+
+
+#sumar_dias_icon_cont{
+	display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#sumar_dias_icon{
+	font-size: 22px;
+    color: black;
+}
+/* Si es menor a */
+@media (max-width: 600px){
+	#sumar_dias_icon{
+		font-size: 18px;
+	}
+}
+
+
+
+
+#sumar_dias_tit_cont{
+	display: flex;
+	align-items: flex-end;
+}
+
+.sumar_dias_tit{
+	font-size: 17px;
+	color: black;
+}
+
+
+
+/*fila separacion*/
+#sumar_dias_fila_sector_separacion_A{
+	height: 10px;
+}
+#sumar_dias_fila_sector_separacion_B{
+	height: 10px;
+}
+
+
+
+
+
+/*Sector 2*/
+#sumar_dias_fila_sector_2_cont{
+	height: 19px;
+}
+
+
+
+
+/*Sector 3*/
+#sumar_dias_fila_sector_3_cont{
+	height: auto;
+}
+
+
+.sumar_dias_precio{
+    font-size: 22px;
+    color: black;
+}
+
+.sumar_dias_precio_tachado{
+	margin-left: 17px;
+
+    font-family: "segoe-ui";
+    font-size: 16px;
+    color: #a9a9a9;
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+/*
+#####    ##    ####   ####  
+#    #  #  #  #    # #    # 
+#    # #    # #      #    # 
+#####  ###### #  ### #    # 
+#      #    # #    # #    # 
+#      #    #  ####   ####
+*/
+
+#sumar_dias_pago_fila_linea_separadora{
+	height: 1px;
+	background-color: black;
+}
+
+
+
+
+/*sector 5 */
+#sumar_dias_pago_mp_txt_cuotas{
+	color: #04680E;
+	font-size: 11px;
+}
+
+
+
+/*Sector 6*/
+#sumar_dias_fila_sector_6_cont{
+	height: 22px;
+}
+
+
+
+.sumar_dias_pago_img_tarjetas {
+    width: 30px;
+    margin-right: 4px;
+}
+
+
+
+/*sector 7 */
+#sumar_dias_pago_mp_txt_masinfo{
+	color: #1259c3!important;
+	font-size: 11px;
+}
+
+
+
+
+/*Sector 8 Boton pagar*/
+
+#sumar_dias_fila_sector_8_cont{
+	margin-top: 20px;
+}
+
+.mercadopago-button{
+	border-radius: 2px;
+}
+
+
+.mercadopago-button{
+	position: relative;
+    width: 100%;
+    height: 33px;
+
+    border-radius: 5px!important;
+    background-color:  var(--main-color_principal)!important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "segoe-ui"!important;
+    font-size: 13px!important;
+    color: white!important;
+    /*margin: 20px auto 0px auto;*/
+    cursor: pointer!important;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    border: 1px solid var(--main-color_principal)!important;
+
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3)!important;
+    box-shadow: 		0px 2px 5px 0px rgba(0, 0, 0, 0.3)!important;
+}
+
+.mercadopago-button:hover{
+	/*border: 1px solid #f3f3f3;*/
+
+	-webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.54)!important;
+    box-shadow: 		0px 2px 6px 0px rgba(0, 0, 0, 0.54)!important;
+}
+
+.mercadopago-button:focus{
+	outline: 0 none;
+
+	-webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.54)!important;
+    box-shadow: 		0px 2px 6px 0px rgba(0, 0, 0, 0.54)!important;
+}
+
+
+/* Si es menor a */
+@media (max-width: 600px){
+	.mercadopago-button{
+		cursor: default;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Sector 9 Compra protegida txt*/
+
+#sumar_dias_fila_sector_9_cont{
+	height: 40px;
+	margin-top: 10px;
+}
+
+#sumar_dias_pago_mp_txt_compra_protegida_cont{
+	display: block;
+	font-size: 11px;
+}
+
+
+
+
+

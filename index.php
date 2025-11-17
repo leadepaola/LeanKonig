@@ -49,8 +49,8 @@ switch ($index_var) {
 
 
 	case 'ACM':
-		//header("location: ./proyects/PR/index.php");
-		header("location: ./proyects/acm/index.php");
+		//header("location: ./proyects/acm/index.php");
+		header("location: ./proyects/acm/admin/views/index.php");
 	break;
 
 	default:

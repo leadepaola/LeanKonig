@@ -1,0 +1,69 @@
+<?php 
+
+
+	
+
+$sql_ = 'SELECT * FROM ti_min_compra 
+
+WHERE id_web 	= '.	$id_web			.' 
+AND id_cliente 	= '.	$id_cliente		.'
+';
+
+
+
+$result_ = $db_conection->prepare($sql_);
+
+// Variables
+
+
+
+
+// Ejecuto query
+if ($result_->execute()) {
+
+	$fila_ = $result_->fetch(PDO::FETCH_ASSOC);
+
+
+	// Verifico si la categoria está activa
+	// Para visualizar su estado en el switch
+	if ($fila_['active']==1) {
+		$temp_switch_active = 'checked="checked"';
+	}else{
+		$temp_switch_active = '';
+	}
+
+
+	
+}
+
+
+
+
+
+$html_inputs_monto_minimo = 
+'
+
+<input type="hidden" id="id_web" 		name="id_web"		value="'.$id_web.'"			style="display:none">
+<input type="hidden" id="id_cliente" 	name="id_cliente"	value="'.$id_cliente.'"		style="display:none">
+
+';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>

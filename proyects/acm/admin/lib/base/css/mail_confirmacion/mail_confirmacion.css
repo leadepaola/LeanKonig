@@ -1,0 +1,121 @@
+
+
+
+
+/* Si es menor a */
+@media (max-width: 600px){
+	.work_titulo{
+		font-size: 30px;
+	}
+}
+
+
+.mail_general_cont{
+	margin: auto;
+}
+
+
+.mail_btn_accion_cont{
+	margin: 100px auto 70px auto;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+.index_btn_accion{
+	width: 150px;
+}
+
+
+
+
+
+
+/*Textarea*/
+
+.mapa_textarea_cont{
+	margin: auto;
+}
+.mail_textarea{
+	height: auto;
+	border: 1px solid white;
+
+	font-family: "roboto-400";
+    
+}
+
+textarea:focus {
+	background: #f7f7f7;
+	outline: 0 none;
+}
+
+
+#mail_textarea_tit{
+	font-size: 14px;
+    color: #676767;
+
+	max-height: 355px;
+    min-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+}
+/* Si es menor a */
+@media (max-width: 600px){
+	#mail_textarea_tit{
+		font-size: 13px;
+		max-height: 365px;
+	    min-height: 260px;
+	}
+}
+
+
+
+
+
+
+
+
+/*
+#    #   ##   # #      
+##  ##  #  #  # #      
+# ## # #    # # #      
+#    # ###### # #      
+#    # #    # # #      
+#    # #    # # ###### 
+*/
+
+#mail_detalle_tit{
+	font-family: "roboto-400";
+   	font-size: 12px;
+    color: #969696;	
+}
+
+.mail_msj_predet_cont{
+	margin: 30px auto 0px auto;
+
+	font-family: "roboto-400";
+   	font-size: 14px;
+    color: #676767;
+}
+/* Si es menor a */
+@media (max-width: 600px){
+	.mail_msj_predet_cont{
+		font-size: 13px;
+	}
+}
+
+.mail_msj_preder_lista_prods{
+	padding-left: 60px;
+}
+
+
+.index_tit_lista{
+	margin-bottom: 25px;
+}
+
+
+
+

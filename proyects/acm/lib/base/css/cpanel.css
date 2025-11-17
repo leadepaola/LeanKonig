@@ -1,0 +1,98 @@
+
+
+
+
+	
+
+
+.row .col {
+	<?php 
+		if ($dispositivo_de_ingreso!="pc") {
+			echo "padding: 0 0;";	
+		} 
+	?>
+}	
+
+
+body{
+	position: relative;
+
+	background-color: #212121;
+	background-color: white;
+}
+
+
+.pr_cpanel_cont_gral{
+	position: relative;
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+	/*background-color: red;*/
+}
+
+
+.pr_cpanel_cont_form{
+	width: 50%;
+
+	margin-top: 200px;
+
+	text-align: center;
+
+
+}
+
+
+.pr_cpanel_form_btn{
+	margin-top: 40px;
+
+	background-color: black;
+
+}
+
+
+
+
+
+
+.pr_cpanel_cont_preloader{
+	position: fixed;
+
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: #ffffff7a;
+
+	display: none;/*flex*/
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+.pr_cpanel_btn_refres{
+	margin-top: 40px;
+
+	background-color: black;
+
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

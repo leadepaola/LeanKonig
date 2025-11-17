@@ -1,0 +1,35 @@
+
+
+.msjs_filas_cont{
+	max-width: 700px;
+    margin: auto;
+}
+
+.index_cont_lista{
+	cursor: pointer;
+}
+
+/* Si es menor a */
+@media (max-width: 600px){
+	#msj_fila_item_hora{
+		display: none;
+	}
+	.index_item_lista{
+		font-size: 11px;
+	}
+	.index_iteam_icon_img{
+		width: 11px;
+	}
+	.msj_item_txt{
+		margin-top: 3px;
+	}
+	.index_cont_lista{
+		cursor: default;
+	}
+}
+
+
+
+
+
+

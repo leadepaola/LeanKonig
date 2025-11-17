@@ -1,0 +1,123 @@
+
+/*
+
+ACLARACION 16/11/20
+
+Copie todo el css tal cual de "monto_minimo.css"
+
+
+
+ACLARACION 6/1/21
+
+Copie todo el css tal cual de "mail_notificacion.css" JAJA
+
+*/
+
+
+
+#mail_detalle_tit{
+	font-family: "roboto-400";
+   	font-size: 14px;
+    color: #969696;	
+}
+
+
+#mail_detalle_tit_2{
+	font-family: "roboto-400";
+   	font-size: 14px;
+    color: black;	
+}
+
+
+
+
+
+
+
+
+#monto_min_titulo_switch_cont{
+    display: flex;
+    align-items: center;
+}
+
+
+.monto_min_fila_cont{
+	/*height: 130px;*/
+	display: flex;
+	align-items: flex-end;
+
+	/*margin-top: 55px;*/
+}
+
+
+
+
+
+
+
+
+/*Boton de accion*/
+
+.monto_min_btn_accion_cont{
+	max-width: 400px;
+
+	margin: 140px auto 70px auto;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+.index_btn_accion{
+	width: 150px;
+}
+
+
+.input-field{
+	margin-top: 50px;
+	display: flex;
+	align-items: center;	
+}
+
+
+
+
+#monto_min_filas_cont{
+	max-width: 400px;
+}
+
+.index_tit_lista{
+	margin-top: 75px;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+
+/* Si es menor a */
+@media (max-width: 600px){
+	.work_titulo {
+	    font-size: 25px;
+	}
+}
+
+
+
+
+/*INPUT*/
+
+#index_input_editlea{
+	font-size: 16px;
+}
+
+#monto_min_signo_pesos{
+	width: 15px;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+

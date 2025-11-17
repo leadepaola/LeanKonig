@@ -1,0 +1,97 @@
+
+
+
+/* Si es menor a...*/
+@media (max-width: 600px){
+	.work_titulo {
+	    font-size: 30px;
+	}
+	
+}
+
+#preg_frec_add_gral_cont{
+	margin-bottom: 150px;
+}
+
+
+
+
+.prod_indi_edit_textarea{
+	height: auto;
+	border: 1px solid white;
+
+	font-family: "segoe-ui-semibold";
+    
+}
+
+textarea:focus {
+	background: #f7f7f7;
+	outline: 0 none;
+}
+
+
+
+/*titulo */
+.preg_frec_edit_tit_cont{
+	/*margin-top: 20px;*/
+}
+#preg_frec_edit_textarea_tit{
+    /*color: var(--main-color_principal);*/	
+
+    height: 60px;
+	max-height: 75px;
+    min-height: 35px;
+    max-width: 100%;
+    min-width: 100%;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: #696969;
+}
+/* Si es menor a */
+@media (max-width: 600px){
+	#preg_frec_edit_textarea_tit{
+		font-size: 14px;
+		max-height: 65px;
+	    min-height: 65px;
+	}
+}
+
+
+
+
+/*respuesta*/
+.preg_frec_edit_resp_cont{
+	/*margin-top: 60px;*/
+}
+#preg_frec_edit_descipcion_textarea{
+
+
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #969696;
+
+	max-height: 270px;
+    min-height: 130px;
+    max-width: 100%;
+    min-width: 100%;
+
+ /*   margin-top: 12px;*/
+}
+/* Si es menor a */
+@media (max-width: 600px){
+	#preg_frec_edit_descipcion_textarea{
+		font-size: 13px;
+		max-height: 270px;
+    	min-height: 230px;
+	}
+}
+
+
+
+/*Boton de accion*/
+.preg_frec_edit_btn_cont {
+    margin-top: 100px;
+}
