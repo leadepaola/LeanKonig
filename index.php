@@ -47,6 +47,12 @@ switch ($index_var) {
 		header("location: ./proyects/PR/cpanel/up_data.php");
 	break;
 
+
+	case 'ACM':
+		//header("location: ./proyects/PR/index.php");
+		header("location: ./proyects/acm/index.php");
+	break;
+
 	default:
 		//header("location: index.php");
 	break;

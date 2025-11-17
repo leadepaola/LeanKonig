@@ -43,3 +43,14 @@ RewriteEngine on
 RewriteRule ^updata$ ./index.php?index_var=PR/DATA [L]
 RewriteEngine on
 RewriteRule ^UPDATA$ ./index.php?index_var=PR/DATA [L]
+
+
+RewriteEngine on
+RewriteRule ^acm$ ./index.php?index_var=ACM [L]
+RewriteEngine on
+RewriteRule ^acm$ ./index.php?index_var=ACM [L]
+
+RewriteEngine on
+RewriteRule ^ACM$ ./index.php?index_var=ACM [L]
+RewriteEngine on
+RewriteRule ^acm$ ./index.php?index_var=ACM [L]
