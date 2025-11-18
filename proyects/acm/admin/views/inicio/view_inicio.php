@@ -51,8 +51,8 @@
 
 
 
-		<!-- Users a cpanel -->
-		<a class="col s12 index_cont_lista a_re" <?php echo $a_cp_users_a_cpanel ?>>
+		<!-- Nuevo acm -->
+		<a class="col s12 index_cont_lista a_re" <?php echo $a_cp_nuevo_acm ?>>
 
 			<div class="col s12  m12 l12 index_item_lista">	
 				<span class="index_item_icon_cont">
@@ -66,32 +66,21 @@
 
 		</a>
 
-		<a class="col s12 index_cont_lista a_re" <?php echo $a_cp_users_a_cpanel ?>>
+		<!-- Acm ya creados -->
+		<a class="col s12 index_cont_lista a_re" <?php echo $a_cp_acm_ya_creados ?>>
 
 			<div class="col s12  m12 l12 index_item_lista">	
 				<span class="index_item_icon_cont">
 					<img src="../images/icon/cpanel/circle.png" class="index_iteam_icon_img" alt=""> 
 				</span>	
 				<span class="productos_item_txt">
-					Realizados					
+					Ya creados					
 				</span>
 			</div>
 
 		</a>
 
-		<a class="col s12 index_cont_lista a_re" <?php echo $a_cp_users_a_cpanel ?>>
-
-			<div class="col s12  m12 l12 index_item_lista">	
-				<span class="index_item_icon_cont">
-					<img src="../images/icon/cpanel/circle.png" class="index_iteam_icon_img" alt=""> 
-				</span>	
-				<span class="productos_item_txt">
-					Propiedades cargadas					
-				</span>
-			</div>
-
-		</a>
-
+		
 
 		<!-- Users a cpanel --
 		<a class="col s12 index_cont_lista a_re" <?php echo $a_cp_show_icons ?>>

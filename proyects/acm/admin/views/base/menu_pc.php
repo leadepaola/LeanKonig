@@ -5,7 +5,7 @@
 	<div>
 		<a <?php echo $a_cp_index; ?> class="a_re">
 		   
-			<img src="/TI/admin/images/logo/logo.png" alt="" class="menu_pc_img"> 
+			<img src="/proyects/acm/admin/images/logo/logozenit.jpg" alt="" class="menu_pc_img"> 
 		</a>
 	</div>
 	
@@ -25,9 +25,9 @@
 	<div class="menu_pc_cont_data">
 		<div class="menu_pc_titulo">Herramientas</div>
 
-		<div class="menu_pc_txt"><a <?php echo $a_cp_restardias.' '			.$class_restardias_pc; 		?> 	>Restar días</a></div>
-		<div class="menu_pc_txt"><a <?php echo $a_cp_users_a_cpanel.' '		.$class_a_cpanel_pc; 		?> 	>Usuarios</a></div>
-		<div class="menu_pc_txt"><a <?php echo $a_cp_show_icons.' '			.$class_a_showicons_pc; 	?> 	>Icons</a></div>
+		<div class="menu_pc_txt"><a <?php echo $a_cp_nuevo_acm.' '			.$class_nuevo_acm_pc; 		?> 	>Nuevo</a></div>
+		<div class="menu_pc_txt"><a <?php echo $a_cp_acm_ya_creados.' '		.$class_acm_ya_creados_pc; 	?> 	>Ya creados</a></div>
+		<!-- <div class="menu_pc_txt"><a <?php //echo $a_cp_show_icons.' '			.$class_a_showicons_pc; 	?> 	>Icons</a></div> -->
 
 
 		<!--

@@ -18,14 +18,16 @@
 		    <!-- Logo -->
 		    <a <?php echo $a_cp_index; ?> 	KBclass="a_re" >
 		    	<!--<img class="circle" src="../../TI/images/logo/id_web_47/logo_1.png">-->
-		    	<img src="/TI/admin/images/logo/logo.png" alt="" class="menu_pc_img "> 
+		    	<!-- <img src="/TI/admin/images/logo/logo.png" alt="" class="menu_pc_img "> -->
+				<img src="/proyects/acm/admin/images/logo/logozenit.jpg" alt="" class="menu_pc_img"> 
+
 		    </a>
 
 		    <a target="_black" ><span class="sidenav_leter_under_logo"></span></a>
 
 		    <br>
 
-		    <a <?php echo $a_cp_sumar_dias; ?> ><span class="sidenav_leter_under_logo a_re"></span></a>
+		    <a <?php //echo $a_cp_sumar_dias; ?> ><span class="sidenav_leter_under_logo a_re"></span></a>
 
     	</div>
     </li>
@@ -39,9 +41,10 @@
 	<div class="sidenav_menu_cont_1 padding_sidenav">
 		<div class="sidenav_menu_titulo">Herramientas</div>
 
-		<div class="margintop_14"><a <?php echo $a_cp_restardias.' '		.$class_restardias_mob;		?> >Restar días</a></div>
-		<div class="margintop_14"><a <?php echo $a_cp_users_a_cpanel.' '	.$class_a_cpanel_mob;  		?> >Usuarios</a></div>
-		<div class="margintop_14"><a <?php echo $a_cp_show_icons.' '		.$class_a_showicons_mob;  		?> >Icons</a></div>
+		<div class="margintop_14"><a <?php echo $a_cp_nuevo_acm.' '			.$class_nuevo_acm_mob;		?> >Nuevo</a></div>
+		<div class="margintop_14"><a <?php echo $a_cp_acm_ya_creados.' '	.$class_acm_ya_creados_mob; ?> >Ya creados</a></div>
+
+		<!-- <div class="margintop_14"><a <?php //echo $a_cp_show_icons.' '		.$class_a_showicons_mob;  		?> >Icons</a></div> -->
 		
 
 		<!--

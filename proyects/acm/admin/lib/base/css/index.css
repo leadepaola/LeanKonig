@@ -352,12 +352,14 @@ option:hover{
 
 
 .menu_pc_img{
-	height: 64px;
-    width: 64px;
+	height: 85px;
+    width: 85px;
 
     margin-top: 60px;
 
-    border-radius: 50%;
+    border-radius: 8px;
+
+	box-shadow: 0px 1px 6px 0px #00000021;
 }
 
 .menu_pc_cont_letter_under_img{
@@ -575,7 +577,7 @@ option:hover{
 
 .work_titulo{
 	font-family: "roboto-400";
-    color: var(--main-color_principal);
+    color: #454545;
     font-size: 40px;
     font-weight: 600;
 }

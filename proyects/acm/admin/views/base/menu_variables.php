@@ -11,11 +11,12 @@ $a_cp_index = 					'href="index.php"';
 
 
 //Herramientas
+$a_cp_nuevo_acm =				'href="nuevo_acm.php"';
+$a_cp_acm_ya_creados =			'href="acm_ya_creados.php"';
 
-//restar dias
-$a_cp_restardias = 				'href="restardias_general.php"';
-$a_cp_users_a_cpanel =			'href="users_a_cpanel.php"';
-$a_cp_show_icons = 				'href="show_icons.php"';
+
+//$a_cp_users_a_cpanel =			'href="users_a_cpanel.php"';
+//$a_cp_show_icons = 				'href="show_icons.php"';
 
 
 
@@ -68,7 +69,10 @@ $a_cp_sumar_dias =				'href="sumar_dias.php"';
 
 // CLASES para sombrear menu activo en pc y mob
 
-$class_restardias_pc 		= 'class="a_inactiva a_re"';	$class_restardias_mob 		= 'class="sidenav_a a_inactiva a_re"';
+$class_nuevo_acm_pc 		= 'class="a_inactiva a_re"';	$class_nuevo_acm_mob 		= 'class="sidenav_a a_inactiva a_re"';
+$class_acm_ya_creados_pc 	= 'class="a_inactiva a_re"';	$class_acm_ya_creados_mob 	= 'class="sidenav_a a_inactiva a_re"';
+
+/*
 $class_a_cpanel_pc 			= 'class="a_inactiva a_re"';	$class_a_cpanel_mob 		= 'class="sidenav_a a_inactiva a_re"';
 $class_a_showicons_pc 		= 'class="a_inactiva a_re"';	$class_a_showicons_mob 		= 'class="sidenav_a a_inactiva a_re"';
 
@@ -113,10 +117,13 @@ $class_sumar_dias_pc		= 'class="a_inactiva a_re"';	$class_sumar_dias_mob		= 'cla
 
 switch ($view_activa) {
 	
+	case 2:		$class_nuevo_acm_pc 		= 'class="a_activa a_re"'; $class_nuevo_acm_mob			= 'class="sidenav_a a_activa a_re"';	break;
+	case 3:		$class_acm_ya_creados_pc	= 'class="a_activa a_re"'; $class_acm_ya_creados_mob 	= 'class="sidenav_a a_activa a_re"';	break;
+
+	/*
 	case 2:		$class_restardias_pc 	= 'class="a_activa a_re"'; $class_restardias_mob	= 'class="sidenav_a a_activa a_re"';	break;
 	case 3:		$class_a_cpanel_pc 		= 'class="a_activa a_re"'; $class_a_cpanel_mob 		= 'class="sidenav_a a_activa a_re"';	break;
 	case 4:		$class_a_showicons_pc 	= 'class="a_activa a_re"'; $class_a_showicons_mob 	= 'class="sidenav_a a_activa a_re"';	break;
-
 /*
 	case 2:		$class_pedidos_pc 		= 'class="a_activa a_re"'; $class_pedidos_mob 		= 'class="sidenav_a a_activa a_re"';	break;
 	case 2.5:	$class_pedidos_pc 		= 'class="a_activa a_re"'; $class_pedidos_mob 		= 'class="sidenav_a a_activa a_re"';	break;
