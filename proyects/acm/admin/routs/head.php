@@ -17,20 +17,20 @@
 <link rel="stylesheet" href="<?php echo $routs; ?>lib/icons/bigmug_and_slim/icon.css">
 
 <!-- 	materealize 				-->
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize.css?2021_7_15_0803">
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize_control.css?2021_7_15_0803">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize.css?2025_11_18_1454">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/materialize/materialize_control.css?2025_11_18_1454">
 
 <!-- 	fonts 						-->
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/fonts.css?2021_7_15_0803">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/fonts.css?2025_11_18_1454">
 
 <!-- 	nice-select 				-->
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/nice_select/nice-select.css?2021_7_15_0803">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/nice_select/nice-select.css?2025_11_18_1454">
 
 
 
 <!-- 	css 						-->
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/index.css?2021_7_15_0803">
-<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/header.css?2021_7_15_0803">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/index.css?2025_11_18_1454">
+<link rel="stylesheet" href="<?php echo $routs; ?>lib/base/css/header.css?2025_11_18_1454">
 
 
 
