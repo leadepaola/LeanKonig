@@ -51,6 +51,49 @@ if(!empty($descripcion_volver)){
 // css
 switch ($view_activa) {
 	
+	//Nuevo ACM = 2
+	case '2':
+		echo 
+		'
+		<div class="work_btn_volver_cont" style="opacity: '.$btn_volver_active.';'.$margin_bottom_btn.'">
+
+			<div class="work_flecha_volver_cont">
+				<a href="./index.php" id="work_a_volver" class="a_re"> 
+					<img src="../images/icon/flecha-izquierda.png" class="work_flecha_volver_img">
+					Volver
+				</a>
+			</div>
+
+			<div class="work_ruta_cont">
+				'.$descripcion_volver.'
+			</div>
+
+		</div>
+		';
+	break;
+
+
+	//acm ya creados = 3
+	case '3':
+		echo 
+		'
+		<div class="work_btn_volver_cont" style="opacity: '.$btn_volver_active.';'.$margin_bottom_btn.'">
+
+			<div class="work_flecha_volver_cont">
+				<a href="./index.php" id="work_a_volver" class="a_re"> 
+					<img src="../images/icon/flecha-izquierda.png" class="work_flecha_volver_img">
+					Volver
+				</a>
+			</div>
+
+			<div class="work_ruta_cont">
+				'.$descripcion_volver.'
+			</div>
+
+		</div>
+		';
+	break;
+
 	//pedidos individual = 2.5
 	case '2.5':
 		echo 
@@ -58,7 +101,7 @@ switch ($view_activa) {
 		<div class="work_btn_volver_cont" style="opacity: '.$btn_volver_active.';'.$margin_bottom_btn.'">
 
 			<div class="work_flecha_volver_cont">
-				<a '.$a_cp_pedidos.' id="work_a_volver" class="a_re"> 
+				<a href="javascript:history.back(-1);" id="work_a_volver" class="a_re"> 
 					<img src="../images/icon/flecha-izquierda.png" class="work_flecha_volver_img">
 					Volver
 				</a>

@@ -10,15 +10,50 @@
 	<div class="row">
 
 		<!-- Filas -->
-		<div class="input-field col s12 " >
+		<div class="input-field nuevo_acm_prop_analizar_input col s12 " >
         	<input id="nueva_pregunta" type="text" >
-        	<label for="nueva_pregunta">Título de nueva pregunta</label>
+        	<label for="nueva_pregunta">Nombre Propietario</label>
+
+        </div>
+
+        <div class="input-field nuevo_acm_prop_analizar_input col s12 " >
+        	<input id="nueva_pregunta" type="text" >
+        	<label for="nueva_pregunta">Dirección</label>
+
+        </div>
+
+        <div class="input-field nuevo_acm_prop_analizar_input col s12 " >
+        	<input id="nueva_pregunta" type="text" >
+        	<label for="nueva_pregunta">Barrio</label>
+
+        </div>
+
+        <div class="input-field nuevo_acm_prop_analizar_input col s12 " >
+        	<input id="nueva_pregunta" type="text" >
+        	<label for="nueva_pregunta">Superficie total (m²)</label>
+
+        </div>
+
+        <div class="input-field nuevo_acm_prop_analizar_input col s12 " >
+        	<input id="nueva_pregunta" type="text" >
+        	<label for="nueva_pregunta">Superficie cubierta (m²)</label>
+
+        </div>
+
+        <div class="input-field nuevo_acm_prop_analizar_input col s12 " >
+        	<input id="nueva_pregunta" type="text" >
+        	<label for="nueva_pregunta">Superficie descubierta (m²)</label>
+
+        </div>
+
+        <div class="input-field nuevo_acm_prop_analizar_input col s12 " >
+        	<input id="nueva_pregunta" type="text" >
+        	<label for="nueva_pregunta">Superficie semi cubierta (m²)</label>
 
         </div>
 
 
-
-        <div class="input-field col s12" id="preg_frec_add_input_respuesta">
+        <div class="input-field nuevo_acm_prop_analizar_input col s12" id="preg_frec_add_input_respuesta">
         	<textarea id="nueva_respuesta" class="materialize-textarea" data-length="5000"></textarea>
         	<label for="nueva_respuesta">Anotacion</label>
         </div>
@@ -34,7 +69,7 @@
         	<div class="col s0 m8"></div>
 
         	<div class="col s12 m4 index_btn_accion" id="">
-        		Crear pregunta
+        		Crear
         	</div>
 
         </span>

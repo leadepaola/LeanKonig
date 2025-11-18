@@ -105,7 +105,8 @@
 				$descripcion_volver = 'ACM ya creados';
 				include('base/btn_volver/btn_volver.php');
 
-				include('users/a_cpanel/view_a_cpanel.php');
+				include('acm_ya_creados/view_acm_ya_creados.php');
+
 			?>
 		 
 

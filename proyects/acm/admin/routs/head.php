@@ -111,6 +111,7 @@
 
 		//Nuevo Acm = 2
 		case '2':
+			echo '<link rel="stylesheet" href="'.$routs.'lib/base/css/nuevo_acm/nuevo_acm.css?2021_7_15_0803">';
 			echo '<link rel="stylesheet" href="'.$routs.'lib/base/css/preg_frecuentes/preg_frecuentes_add.css?2021_7_15_0803">';
 		break;
 
@@ -124,9 +125,10 @@
 			echo '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">';
 		break;
 */
-		//users_a_cpanel = 3
+		//acm ya creados = 3
 		case '3':
-			echo '<link rel="stylesheet" href="'.$routs.'lib/base/css/users/a_cpanel/a_cpanel.css?2021_7_15_0803">';
+			//echo '<link rel="stylesheet" href="'.$routs.'lib/base/css/users/a_cpanel/a_cpanel.css?2021_7_15_0803">';
+			echo '<link rel="stylesheet" href="'.$routs.'lib/base/css/productos/productos_edit.css?2021_7_15_0803">';
 		break;
 
 			
