@@ -106,13 +106,13 @@
 		
 		// Index/inicio
 		case '1':
-			echo '<link rel="stylesheet" href="'.$routs.'lib/base/css/inicio/inicio.css?2021_7_15_0803">';
+			echo '<link rel="stylesheet" href="'.$routs.'lib/base/css/inicio/inicio.css?2025_11_18_1448">';
 		break;
 
 		//Nuevo Acm = 2
 		case '2':
-			echo '<link rel="stylesheet" href="'.$routs.'lib/base/css/nuevo_acm/nuevo_acm.css?2021_7_15_0803">';
-			echo '<link rel="stylesheet" href="'.$routs.'lib/base/css/preg_frecuentes/preg_frecuentes_add.css?2021_7_15_0803">';
+			echo '<link rel="stylesheet" href="'.$routs.'lib/base/css/nuevo_acm/nuevo_acm.css?2025_11_18_1448">';
+			echo '<link rel="stylesheet" href="'.$routs.'lib/base/css/preg_frecuentes/preg_frecuentes_add.css?2025_11_18_1448">';
 		break;
 
 		/*	
@@ -128,7 +128,7 @@
 		//acm ya creados = 3
 		case '3':
 			//echo '<link rel="stylesheet" href="'.$routs.'lib/base/css/users/a_cpanel/a_cpanel.css?2021_7_15_0803">';
-			echo '<link rel="stylesheet" href="'.$routs.'lib/base/css/productos/productos_edit.css?2021_7_15_0803">';
+			echo '<link rel="stylesheet" href="'.$routs.'lib/base/css/productos/productos_edit.css?2025_11_18_1448">';
 		break;
 
 			
